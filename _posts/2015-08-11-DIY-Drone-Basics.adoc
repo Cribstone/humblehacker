@@ -9,16 +9,21 @@ image::https://lh3.googleusercontent.com/-6k6u9-Y-C78/Vcoy0BxUT2I/AAAAAAAAWD4/Si
 image:https://lh3.googleusercontent.com/-E5ydX3qd60A/Vco0_MHAYoI/AAAAAAAAWE8/JLCx_rh10Vk/s100-Ic42/radiocontrol.png[]   The RC Transmitter includes the manual controls for throttle, altitude and direction 
 that will be relayed to the drone through the wireless radio transmitter.  Most RC Transmitters allow for a wide variety of autonomous flight modes to be programmed into auxiliary switches.
 
+image:https://lh3.googleusercontent.com/-ZJ2DXyo-M9Q/Vco2IL4safI/AAAAAAAAWFo/mlvAe31AXpo/s80-Ic42/Wireless.png[]The Wireless Receiver is connected to the flight controller and relays commands from the manual controls and flight mode triggers.  Real-time telemetry can be sent back to the Control Box using Bluetooth or more advanced RF configurations.
+
+
+image:https://lh3.googleusercontent.com/-hEpJ7k51cjQ/Vco2SzUdOSI/AAAAAAAAWFw/cR81g2_5Z1M/s18-Ic42/GPS.png[] A GPS receiver is essential for auto-navigation capabilities.  They are normally added as a seperate module.
+
 image:https://lh3.googleusercontent.com/-vmQX54oVpy8/Vco2C_M1o2I/AAAAAAAAWFY/HZxksw9rx88/s100-Ic42/cpu.png[]The Flight Controller is the vehicles brain. It integrates 4 different types of sensors to keep the vehicle stable and airborne.
       
-The Wireless Receiver is connected to the flight controller and relays commands from the manual controls and flight mode triggers.  Real-time telemetry can be sent back to the Control Box using Bluetooth or more advanced RF configurations.
-image:
-The magnetometer is a digital compass and navigates the drone to preplotted waypoints
+
+image:https://lh3.googleusercontent.com/-IgNf00sCZe0/Vco2B0xTfyI/AAAAAAAAWFQ/bfLg6UQWLM8/s80-Ic42/Compass.png[] The magnetometer is a digital compass and navigates the drone to preplotted waypoints
+
+image:https://lh3.googleusercontent.com/-DFaWkr1t-c0/Vco-ycOF4YI/AAAAAAAAWIc/Ihp6v5ftxMo/s96-Ic42/mini10DOF.png[] The Accelerometer controls up/down and forward backward motion
+
+image:https://lh3.googleusercontent.com/-LuI-imYFDEs/Vco8x_0u5iI/AAAAAAAAWH4/VpXKkiUhXNE/s113-Ic42/miniGyro.png[] The gyroscope keeps the drone level with the horizon.
+
+image:https://lh3.googleusercontent.com/-jJUWorf17KY/Vco9hGTr1OI/AAAAAAAAWIE/wZ8DysO1rIg/s80-Ic42/esc.png[] Electronic Speed Controls (ESC) provide power to the Flight Controller and the Brushless Motors by connecting directly to a battery power source. It also performs another important role by translating digital commands from the Flight Controller into raw  electric current to power the Brushless Motors.  
 
 
-The gyroscope keeps the drone level with the horizon.
-
-Electronic Speed Controls (ESC) provide power to the Flight Controller and the Brushless Motors by connecting directly to a battery power source. It also performs another important role by translating digital commands from the Flight Controller into raw  electric current to power the Brushless Motors.  
-
-
-Modern hobby drones almost exclusively use Brushless Electric Motors due to their superior efficiency, durability, torque and speed.  The major disadvantage compared to brushed motors are the requirement for additional speed controls.  However, with ESC components getting smarter and cheaper every day, this disadvantage the Brushless Motors.  While only one ESC is needed to power the Flight Controller.
+image:https://lh3.googleusercontent.com/-fp0OIM-DgKc/Vco-Nn6SE6I/AAAAAAAAWIM/V_mfbb8ZcOQ/s80-Ic42/smallBrushlessMotor.png[] Modern hobby drones almost exclusively use Brushless Electric Motors due to their superior efficiency, durability, torque and speed.  The major disadvantage compared to brushed motors are the requirement for additional speed controls.  However, with ESC components getting smarter and cheaper every day, this disadvantage the Brushless Motors.  While only one ESC is needed to power the Flight Controller.

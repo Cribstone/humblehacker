@@ -1,15 +1,17 @@
 = DIY Drone Basics
 
+
+
 image::https://lh3.googleusercontent.com/-6k6u9-Y-C78/Vcoy0BxUT2I/AAAAAAAAWD4/SiLY0lNjvR0/s576-Ic42/BlueDroneGraphic.png[]
 
 
 
-The RC Transmitter includes the manual controls for throttle, altitude and direction that will be relayed to the drone through the wireless radio transmitter.  Most RC Transmitters allow for a wide variety of autonomous flight modes to be programmed into auxiliary switches.
+image:https://lh3.googleusercontent.com/-E5ydX3qd60A/Vco0_MHAYoI/AAAAAAAAWE8/JLCx_rh10Vk/s100-Ic42/radiocontrol.png[]   The RC Transmitter includes the manual controls for throttle, altitude and direction that will be relayed to the drone through the wireless radio transmitter.  Most RC Transmitters allow for a wide variety of autonomous flight modes to be programmed into auxiliary switches.
 
 The Flight Controller is the vehicles brain. It integrates 4 different types of sensors to keep the vehicle stable and airborne.
       
 The Wireless Receiver is connected to the flight controller and relays commands from the manual controls and flight mode triggers.  Real-time telemetry can be sent back to the Control Box using Bluetooth or more advanced RF configurations.
-
+image:
 The magnetometer is a digital compass and navigates the drone to preplotted waypoints
 
 

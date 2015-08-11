@@ -1,4 +1,6 @@
 = Low Cost Quadcopter Build for DIY Mapping
+
+image::/diagrams/BlueDroneGraphic.png[]
 #grassrootsmapping
 
 ###What I want to do

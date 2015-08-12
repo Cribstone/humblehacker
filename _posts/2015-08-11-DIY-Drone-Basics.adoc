@@ -18,7 +18,7 @@ that will be relayed to the drone through the wireless radio transmitter.  Most 
 image:https://lh3.googleusercontent.com/-ZJ2DXyo-M9Q/Vco2IL4safI/AAAAAAAAWFo/mlvAe31AXpo/s80-Ic42/Wireless.png[]The Wireless Receiver is connected to the flight controller and relays commands from the manual controls and flight mode triggers.  Real-time telemetry can be sent back to the Control Box using Bluetooth or more advanced RF configurations.
 
 
-image:https://lh3.googleusercontent.com/-hEpJ7k51cjQ/Vco2SzUdOSI/AAAAAAAAWFw/cR81g2_5Z1M/s18-Ic42/GPS.png[] A GPS receiver is essential for auto-navigation capabilities.  They are normally added as a seperate module.
+image:https://lh3.googleusercontent.com/-3i-LRLpxcpo/VcthefMmeaI/AAAAAAAAWJ0/bsqF-wwhdeA/s55-Ic42/path4.png[] A GPS receiver is essential for auto-navigation capabilities.  They are normally added as a seperate module.
 
 image:https://lh3.googleusercontent.com/-vmQX54oVpy8/Vco2C_M1o2I/AAAAAAAAWFY/HZxksw9rx88/s100-Ic42/cpu.png[]The Flight Controller is the vehicles brain. It integrates 4 different types of sensors to keep the vehicle stable and airborne.
       

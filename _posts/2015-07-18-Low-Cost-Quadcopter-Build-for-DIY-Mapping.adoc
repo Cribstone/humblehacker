@@ -1,9 +1,15 @@
 = Low Cost Quadcopter Build for DIY Mapping
+
+
+
 #grassrootsmapping
 
 ###What I want to do
 
 I want to build a programmable aerial mapping vehicle that I can use as an interim testbed to refine various DIY/Open Source methods that will eventually be included in a related project for an [affordable mapping drone](http://publiclab.org/notes/code4maine/08-05-2014/aerial-mapping-drone-for-under-60).
+
+image::https://github.com/Cribstone/humblehacker/blob/gh-pages/images/diagrams/BlueDroneGraphic.png[]
+
 
 In addition to testing flight components, the vehicle will also be a testbed for a wide variety of aerial sensors including a low-cost Camera's, LIDAR sensors and GPS.
 

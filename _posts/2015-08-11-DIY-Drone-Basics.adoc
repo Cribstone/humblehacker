@@ -6,7 +6,8 @@ image::https://lh3.googleusercontent.com/-6k6u9-Y-C78/Vcoy0BxUT2I/AAAAAAAAWD4/Si
 
 == Fundamentals 
 
-As the development of UAVs for consumer use is still in its infancy, and most are still considered expensive toys for the wealthy, it is becoming easier and easier to build highly sophisticated vehicles at a fraction of the cost, with capabilities far surpassing current commercial offerings. 
+As the development of UAVs for consumer use is still in its infancy, and most are still considered expensive toys for the wealthy, it is becoming easier and easier to build highly sophisticated vehicles at a fraction of the cost, with capabilities far surpassing current commercial offerings. Thanks to online communities like www.MultiWii.org and www.diydrones.com, newcomers can find detailed documentation outlining every step of designing, building and flying your own unmanned aircraft using only generic, off-the-shelf electronics and homemade materials. Such documentation is often oriented towards other experts however, so those who are just getting started might find the technical language difficult to understand. Thus before I document how I went about building my own low-cost/DIY drone,it might be necessary to go over some of the basic terminology and fundamental concepts behind small autonomous aircraft at present.
+
 
 image:https://lh3.googleusercontent.com/-E5ydX3qd60A/Vco0_MHAYoI/AAAAAAAAWE8/JLCx_rh10Vk/s100-Ic42/radiocontrol.png[]   The RC Transmitter includes the manual controls for throttle, altitude and direction 
 that will be relayed to the drone through the wireless radio transmitter.  Most RC Transmitters allow for a wide variety of autonomous flight modes to be programmed into auxiliary switches.

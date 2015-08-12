@@ -4,7 +4,9 @@
 
 image::https://lh3.googleusercontent.com/-6k6u9-Y-C78/Vcoy0BxUT2I/AAAAAAAAWD4/SiLY0lNjvR0/s576-Ic42/BlueDroneGraphic.png[]
 
+== Fundamentals 
 
+As the development of UAVs for consumer use is still in its infancy, and most are still considered expensive toys for the wealthy, it is becoming easier and easier to build highly sophisticated vehicles at a fraction of the cost, with capabilities far surpassing current commercial offerings. 
 
 image:https://lh3.googleusercontent.com/-E5ydX3qd60A/Vco0_MHAYoI/AAAAAAAAWE8/JLCx_rh10Vk/s100-Ic42/radiocontrol.png[]   The RC Transmitter includes the manual controls for throttle, altitude and direction 
 that will be relayed to the drone through the wireless radio transmitter.  Most RC Transmitters allow for a wide variety of autonomous flight modes to be programmed into auxiliary switches.

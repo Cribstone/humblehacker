@@ -2,13 +2,17 @@
 
 For the vast majority of people around the world, autonomous aerial vehicles represent either scary military killing machines, or expensive toys for rich people.  Even as citizen-scientists, grassroots researchers, humanitarian activists etc... have grown to recognize the enormous potential of having access to such technology, the dominant perception is that it can only happen at singnificant expense.  Yet, within the growing user-community of UAV hobbyists, it has long been established that even the most expensive model available on the consumer market can easily be outmatched for very little money using a combination of open source software, open source hardware and "Do-It-Yourself" techniques.  In order to properly understand how these practices work in context it is necessary to provide a few examples to show how these definitions are far from fixed but rather comprise part of a spectrum.  On one end of the spectrum may be proprietary "Ready-To-Fly" consumer models which require minimal setup but will also allow for minimal flexibility and often cost significantly more, while on the other end of the spectrum will be "scratch-built", DIY models which are almost entirely constructed from recycled materials and generic electronics.  
 
+In order to properly contrast each variants capabilities they must all meet the folllowing conditions.
+
 .Comparative Matrix
 * Must be capable of autonomously navigating to preplotted GPS waypoints 
 * Must be capable of carrying a camera with pan/tilt movement
 * Must be capable of mounting various non-navigation sensors such as Lidar etc...
 
 
-== Comparitive Metrics
+== Consumer Models
+
+
 
 
 

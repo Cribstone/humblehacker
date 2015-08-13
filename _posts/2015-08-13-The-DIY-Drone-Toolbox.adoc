@@ -10,8 +10,11 @@ A microcontroller (MCU) chipset specializes in converting analog inputs into dig
 
 Early UAV autopilot platforms like http://www.multiwii.com/ and http://copter.ardupilot.com/ grew out of this very same phenomenon. In fact it could be argued that without Arduino, the modern consumer UAV industry would still be a small niche market for expensive toys as the flight controller concept evolved out of these user-contributor communities.
 
-Arduino boards come in many different variants, with many different features.  By far the most popular variant for DIY Drone applications is known as the Arduino Pro Mini
+Arduino boards come in many different variants, with many different features.  By far the most popular variant for DIY Drone applications is known as the Arduino Pro Mini-
+
 image::https://lh3.googleusercontent.com/-V7kgCQTH2Zg/Vcy9z0w4DYI/AAAAAAAAWKc/DRz0wXOeQPo/s117-Ic42/ProMinisolo.png[]
+
+These compact 8bit boards can be ordered for as cheap as $3 each and their versatility is such that they could be used to build almost every essential electronic component on a drone (incl. the Flight Controller, Transmitter, Receiver, and even the ESCs!) save the brushless motors! Their usage as Flight Controllers has recently been eclipsed by more powerful 32Bit boards, but they remain important pieces of DIY transmitter/receivers like OpenLRSng and some hardcore DIYers will use them to build DIY ESCs such as the VESC project-http://vedder.se/2015/01/vesc-open-source-esc/
 
 
 

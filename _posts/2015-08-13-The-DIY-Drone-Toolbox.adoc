@@ -32,8 +32,16 @@ Furthermore, whereas the majority of 8bit MCUs used in remote control or small a
 Nevertheless, 32bit platforms have proven attractive to developers of Flight Controllers in particular. As a result, platforms like Cleanflight, which feature capabilities like RGB LED support and GPS waypoint navigation are exclusive to 32bit Flight Controllers.  Some commercially available Radio Controller/Transmitters such as the Turnigy 9XR Pro have also adopted 32bit processors though I am not aware of any DIY equivalents at this time.
 
 === Arduino DUE
+If the original AVR Arduino's are like the original Star Wars trilogy, then Arduino's attempt at a 32bit architecture is like "The Phantom Menace"...  
 
+image::https://lh3.googleusercontent.com/-lZxh9zUViTU/Vcz8A2Yp6MI/AAAAAAAAWLc/JW_Jbf-ItAo/s272-Ic42/ArduinoDue.png[]
+
+The Arduino DUE footprint resembles that of the Mega2560, but it has none of the versatility that made its predecessors so popular.  As the first member of the Arduino familiy with an ARM architecure, software support for the took an eternity in software years.  Worse still is that all previous AVR arduino's were rated for 5v but the DUE was only rated for 3.3v.  This meant it couldn't work with most of the many "shield" attachments that made the original boards so powerful.
+With no equivalent to the "Pro Mini" layout, and a $40 price tag, few could find a role for the DUE on a UAV.
+The one possible DIY Drone use-case for a DUE would be in the fact that the Turnigy 9xR-Pro Controller/Transmitter is based on the same AT91SAM3X chipset.  It possible that a DIY 9xrPro could simply replace the Mega2560 in a DIY build. As far as I am aware nothing of the sort has been attempted.
 
 === STM32
 
-image::https://lh3.googleusercontent.com/-2obnU17yBWs/Vcy935zBXfI/AAAAAAAAWK0/EjI_lg8D8sk/s220-Ic42/STM32solo.png
+To continue with the Star Wars analogy...  While the "The Phantom Menace" might have soured an entire generation by relying too much on digital effects, at the same time "The Lord of the Rings" was proving that analog and digital techniques could still work well together in the right balance.  In the world of electronics, part of "The Lord of the Rings" is played by another microcontrollers called the STM32.
+
+image::https://lh3.googleusercontent.com/-2obnU17yBWs/Vcy935zBXfI/AAAAAAAAWK0/EjI_lg8D8sk/s220-Ic42/STM32solo.png[]

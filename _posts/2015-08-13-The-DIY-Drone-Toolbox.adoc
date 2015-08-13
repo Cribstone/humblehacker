@@ -1,0 +1,6 @@
+= The DIY Drone Toolbox
+
+image::https://lh3.googleusercontent.com/-2QxxOjoymWY/Vcot-gP1q3I/AAAAAAAAWC0/kHki3_hMWC4/s640-Ic42/DIYDroneToolbox.png[]
+
+Whether or not you plan to build a 98% DIY Drone or simply want to learn how to make back ups for existing parts, one would be amazed how much you can do with just these few basic building blocks.
+

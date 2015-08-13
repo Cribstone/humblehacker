@@ -25,11 +25,11 @@ image::https://lh3.googleusercontent.com/-Xpi6hYVXUE8/Vcy9zwMc1tI/AAAAAAAAWKo/cu
 I will be using a Mega2560 to build a DIY Controller/Transmitter with OpenTX firmware in a later post.
 
 == 8bit vs 32bit MCUs 
-The majority of 8bit MCUs used in remote control or small autonomous aircraft are based on an AVR architecture https://en.wikipedia.org/wiki/Atmel_AVR.  32bit MCUs are based on an ARM chipset similar to those that power smartphones.  The underlying architecture 
+32Bit MCUs offer more memory and processing power. When it comes to a CPU processor like those powering a laptop, more RAM is almost always better.  In an MCU however, where performance is measured by its ability to process inputs and outputs from both analog and digital sources, more RAM isn't necessarily going to help.
 
-When it comes to a CPU processor like those powering a laptop, more RAM is almost always better.  In an MCU, where performance is measured by its ability to process inputs and outputs from both analog and digital sources, more RAM isn't necessarily going to help.
+Furthermore, whereas the majority of 8bit MCUs used in remote control or small autonomous aircraft are based on an AVR architecture https://en.wikipedia.org/wiki/Atmel_AVR.  32bit MCUs are based on an ARM chipset similar to those that power smartphones.  The difference in the underlying architectures inevitably means that compatibility will be difficult.
 
-Nevertheless, the future development of Flight Controllers seems to be firmly 32Bit. Some commercially available Radio Controller/Transmitters such as the Turnigy 9XR Pro have also adopted 32bit processors
+Nevertheless, 32bit platforms have proven attractive to developers of Flight Controllers in particular. As a result, platforms like Cleanflight, which feature capabilities like RGB LED support and GPS waypoint navigation are exclusive to 32bit Flight Controllers.  Some commercially available Radio Controller/Transmitters such as the Turnigy 9XR Pro have also adopted 32bit processors though I am not aware of any DIY equivalents at this time.
 
 === Arduino DUE
 

@@ -10,8 +10,10 @@ A microcontroller (MCU) chipset specializes in converting analog inputs into dig
 
 Early UAV autopilot platforms like http://www.multiwii.com/ and http://copter.ardupilot.com/ grew out of this very same phenomenon. In fact it could be argued that without Arduino, the modern consumer UAV industry would still be a small niche market for expensive toys as the flight controller concept evolved out of these user-contributor communities.
 
-
+Arduino boards come in many different variants, with many different features.  By far the most popular variant for DIY Drone applications is known as the Arduino Pro Mini
 image::https://lh3.googleusercontent.com/-V7kgCQTH2Zg/Vcy9z0w4DYI/AAAAAAAAWKc/DRz0wXOeQPo/s117-Ic42/ProMinisolo.png[]
+
+
 
 image::https://lh3.googleusercontent.com/-Xpi6hYVXUE8/Vcy9zwMc1tI/AAAAAAAAWKo/cujPzG1Mk7w/s288-Ic42/mega2560solo.png[]
 

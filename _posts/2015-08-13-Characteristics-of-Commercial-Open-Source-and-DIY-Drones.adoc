@@ -1,0 +1,3 @@
+= Characteristics of Commercial, Open Source and DIY Drones
+
+For the vast majority of people around the world, autonomous aerial vehicles represent either scary military killing machines, or expensive toys for rich people.  Even as citizen-scientists, grassroots researchers, humanitarian activists etc... have grown to recognize the enormous potential of having access to such technology, the dominant perception is that it can only happen at singnificant expense.  Yet, within the growing user-community of UAV hobbyists, it has long been established that even the most expensive model available on the consumer market can easily be outmatched for very little money using a combination of open source software, open source hardware and "Do-It-Yourself" techniques.

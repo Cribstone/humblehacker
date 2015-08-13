@@ -4,3 +4,12 @@ image::https://lh3.googleusercontent.com/-2QxxOjoymWY/Vcot-gP1q3I/AAAAAAAAWC0/kH
 
 Whether or not you plan to build a 98% DIY Drone or simply want to learn how to make back ups for existing parts, one would be amazed how much you can do with just these few basic building blocks.
 
+== Arduino
+
+image::https://lh3.googleusercontent.com/-V7kgCQTH2Zg/Vcy9z0w4DYI/AAAAAAAAWKc/DRz0wXOeQPo/s117-Ic42/ProMinisolo.png[]
+
+image::https://lh3.googleusercontent.com/-Xpi6hYVXUE8/Vcy9zwMc1tI/AAAAAAAAWKo/cujPzG1Mk7w/s288-Ic42/mega2560solo.png[]
+
+== STM32
+
+image::https://lh3.googleusercontent.com/-2obnU17yBWs/Vcy935zBXfI/AAAAAAAAWK0/EjI_lg8D8sk/s220-Ic42/STM32solo.png[]

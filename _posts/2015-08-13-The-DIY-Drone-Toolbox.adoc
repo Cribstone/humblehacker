@@ -8,6 +8,7 @@ Whether or not you plan to build a 98% DIY Drone or simply want to learn how to 
 
 A microcontroller (MCU) chipset specializes in converting analog inputs into digital outputs and vice versa. While there are many different MCU manufacturers, Arduino hardware is specifically oriented towards protyping and experimentation while its programming code is well known for being especially friendly to beginners. They were also one of the first companies to open source their hardware designs along with their source code.  All these factors have combined to make it extremely popular across the creative spectrum from artists to electrical engineers.  Such popularity has in turned spawned an enormous community of user-contributors whose source code creates literally thousands of applications.
 
+Early UAV autopilot platforms like http://www.multiwii.com/ and http://copter.ardupilot.com/ grew out of this very same phenomenon. In fact it could be argued that without Arduino, the modern consumer UAV industry would still be a small niche market for expensive toys as the flight controller concept evolved out of these user-contributor communities.
 
 
 image::https://lh3.googleusercontent.com/-V7kgCQTH2Zg/Vcy9z0w4DYI/AAAAAAAAWKc/DRz0wXOeQPo/s117-Ic42/ProMinisolo.png[]

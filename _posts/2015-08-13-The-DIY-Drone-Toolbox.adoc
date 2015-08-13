@@ -4,9 +4,11 @@ image::https://lh3.googleusercontent.com/-2QxxOjoymWY/Vcot-gP1q3I/AAAAAAAAWC0/kH
 
 Whether or not you plan to build a 98% DIY Drone or simply want to learn how to make back ups for existing parts, one would be amazed how much you can do with just these few basic building blocks.
 
-== Arduino
+== 8bit MCUs
+A microtroller (MCU) chipset specializes in converting analog inputs into digital outputs and vice versa. The majority of 8bit MCUs used in remote control or small autonomous aircraft are based on an AVR architecture https://en.wikipedia.org/wiki/Atmel_AVR
+=== Arduino
 
-A microcontroller (MCU) chipset specializes in converting analog inputs into digital outputs and vice versa. While there are many different MCU manufacturers, Arduino hardware is specifically oriented towards protyping and experimentation while its programming code is well known for being especially friendly to beginners. They were also one of the first companies to open source their hardware designs along with their source code.  All these factors have combined to make it extremely popular across the creative spectrum from artists to electrical engineers.  Such popularity has in turned spawned an enormous community of user-contributors whose source code creates literally thousands of applications.
+ While there are many different MCU manufacturers, Arduino hardware is specifically oriented towards protyping and experimentation while its programming code is well known for being especially friendly to beginners. They were also one of the first companies to open source their hardware designs along with their source code.  All these factors have combined to make it extremely popular across the creative spectrum from artists to electrical engineers.  Such popularity has in turned spawned an enormous community of user-contributors whose source code creates literally thousands of applications.
 
 Early UAV autopilot platforms like http://www.multiwii.com/ and http://copter.ardupilot.com/ grew out of this very same phenomenon. In fact it could be argued that without Arduino, the modern consumer UAV industry would still be a small niche market for expensive toys as the flight controller concept evolved out of these user-contributor communities.
 
@@ -24,6 +26,14 @@ image::https://lh3.googleusercontent.com/-Xpi6hYVXUE8/Vcy9zwMc1tI/AAAAAAAAWKo/cu
 
 I will be using a Mega2560 to build a DIY Controller/Transmitter with OpenTX firmware in a later post.
 
-== STM32
+== 32bit MCUs 
+When it comes to a CPU processor like those powering a laptop, more RAM is almost always better.  In an MCU, where performance is measured by its ability to process inputs and outputs from both analog and digital sources, more RAM isn't necessarily going to help.
 
-image::https://lh3.googleusercontent.com/-2obnU17yBWs/Vcy935zBXfI/AAAAAAAAWK0/EjI_lg8D8sk/s220-Ic42/STM32solo.png[]
+Nevertheless, the future development of Flight Controllers seems to be firmly 32Bit. Some commercially available Radio Controller/Transmitters such as the Turnigy 9XR Pro have also adopted 32bit processors
+
+=== Arduino DUE
+
+
+=== STM32
+
+image::https://lh3.googleusercontent.com/-2obnU17yBWs/Vcy935zBXfI/AAAAAAAAWK0/EjI_lg8D8sk/s220-Ic42/STM32solo.png

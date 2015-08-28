@@ -4,7 +4,9 @@ Note-For a broad introduction to the most basic, critical components in a DIY Dr
 
 === Hardware
 The Flight Controller (aka autopilot) functions as the robotic "brain" and as such is often the most expensive single piece of hardware in a drone kit (other than the RC Transmitter if one is not already owned). Pioneering open source projects like http://www.multiwii.com/ and http://ardupilot.com/ developed autopilot firmware for 8Bit MCUs like the popular Arduino.  Most platforms at present have evolved into 32bit platforms and range from the https://store.3drobotics.com/products/3dr-pixhawk/?utm_source=google&utm_medium=cpc&utm_term=branded&utm_campaign=branded&gclid=CjwKEAjwjYCvBRC99sSm_frioAwSJACrKuPCnaGBJ4bEksK53l1tchcLxKj-pRPitv8HaP46mnS4BRoC1-Dw_wcB[$200 Pixhawk] to the http://www.banggood.com/OpenPilot-CC3D-Flight-Controller-Bent-Pin-STM32-32-bit-Flexiport-p-956366.html?currency=USD&createTmp=1&utm_source=google&utm_medium=shopping&utm_content=saul&utm_campaign=Rc-Quad-us&gclid=CjwKEAjwjYCvBRC99sSm_frioAwSJACrKuPCIe0cyLQud9HKajfvp4m6k70K4XqyfSdsf2xv-1Z_ShoCPeDw_wcB[$15 CC3D].  Most modern FCs will be based on an STM32 MCU (instead of an 8bit Arduino) and will include an accelerometer and gyroscope for self-stabilization plus a magnetometer/digital compass for navigation. A combination of all three sensors, called an IMU can also be found for minimal extra cost.  Some FCs like the Naze32 'Acro' are purposely designed for manual control and lack a magnetometer.  Such FCs will not have an autopilot capability so should be avoided by aerial mappers.
- For a more detailed explanation of MCU hardware please see-https://cribstone.github.io/humblehacker/2015/08/13/The-DIY-Drone-Toolbox.html
+ For a more detailed explanation of MCU hardware please see-https://cribstone.github.io/humblehacker/2015/08/13/The-DIY-DroneToolbox.html
+ 
+ 
  
 === Firmware
 While the hardware capabilities of the $200 Pixhawk and the $15 CC3D may be comparable, the software interface of the Pixhawk is significantly more accessible for a non-expert. For many, the $185 more than makes up for the learning curve of the latter device.  With the list of open source autopilot programs growing every day, simply finding a single platform to work with can be overwhelming enough to turn away many before they even start!  For purposes of clarity, I will be focusing on only one platform, called http://cleanflight.com/Cleanflight[Cleanflight], but for reference purposes I will also maintain the following list of Open Source Autopilot platforms-
@@ -18,8 +20,14 @@ While the hardware capabilities of the $200 Pixhawk and the $15 CC3D may be comp
 * http://ardupilot.com/[ArduPilot]
 * https://wiki.paparazziuav.org/wiki/Main_Page[Paparazzi]
 
-=== Cleanflight
+==== Cleanflight
  http://cleanflight.com/[Cleanflight] is a fork of another open source project called https://github.com/multiwii/baseflight[Baseflight] which itself was created as a 32bit fork of the venerable http://www.multiwii.com/[MultiWii] platform. (NOTE: I have covered the differences between the 32bit derivatives and the original 8bit code in the DIYDrone Toolbox post). The programming interfaces for both Baseflight and Cleanflight are in the form of a web-app in the Chrome browser and are much more accessible than earlier incarnations.  Both have expansive support for different hardware including Naze32, CC3D etc...  The major difference between the two is Cleanflight is developing much more rapidly and adding new improvements every week almost.  As of this writing, the one major drawback is sparse support for adding GPS navigation by waypoint on a map.  This is very likely to change however as the pace of development is accelererating.
+ 
+ 
+ === A DIY Scratch-Built Flight Controller
+ 
+ 
+ 
 
 
  

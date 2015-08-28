@@ -18,7 +18,8 @@ While the hardware capabilities of the $200 Pixhawk and the $15 CC3D may be comp
 * http://ardupilot.com/[ArduPilot]
 * https://wiki.paparazziuav.org/wiki/Main_Page[Paparazzi]
 
-
+=== Cleanflight
+ http://cleanflight.com/[Cleanflight] is a fork of another open source project called https://github.com/multiwii/baseflight[Baseflight] which itself was created as a 32bit fork of the venerable http://www.multiwii.com/[MultiWii] platform. (NOTE: I have covered the differences between the 32bit derivatives and the original 8bit code in the DIYDrone Toolbox post). The programming interfaces for both Baseflight and Cleanflight are in the form of a web-app in the Chrome browser and are much more accessible than earlier incarnations.  Both have expansive support for different hardware including Naze32, CC3D etc...  The major difference between the two is Cleanflight is developing much more rapidly and adding new improvements every week almost.  As of this writing, the one major drawback is sparse support for adding GPS navigation by waypoint on a map.  This is very likely to change however as the pace of development is accelererating.
 
 
  

@@ -26,8 +26,14 @@ http://cleanflight.com/[Cleanflight] is a fork of another open source project ca
  
 === A DIY Scratch-Built Flight Controller
  
-image::https://lh3.googleusercontent.com/-wxKw_L5yaew/VcouBIsNfkI/AAAAAAAAWCs/O2TV-qqmDZ8/s302-Ic42/GY-86Naze32nojtag.png[]
- 
+The namesake of the original MultiWii was derived from the fact that the entire flight controller could be built using nothing more than recycled electronics from a Ninetendo Wii "nunchuck" controller and an Arduino "Pro Mini".  Since that time, flight controllers have evolved into commercial products in their own right, and the old 8Bit MultiWii boards have evolved into more powerful boards like the popular http://abusemark.com/store/index.php?main_page=product_info&products_id=30[Naze32]. Nevertheless, I still see great value in the simplicity of the original DIY approach.  Again, I elaborate in greater detail in the DIYDrone Toolbox post, but the evolution to 32bit MCUs made the DIY method much more complicated as it no longer utilized the hacker-friendly Arduino platform.  
 
+Luckily, I came across the following build thread at http://www.rcgroups.com/forums/showthread.php?t=2154329.  The thread gives detailed instructions on how to build the equivalent of a Naze32 flight controller from scratch using a generic STM32 develepment board like http://www.newegg.com/Product/Product.aspx?Item=9SIA7BF2K27858&nm_mc=KNC-GoogleMKP-PC&cm_mmc=KNC-GoogleMKP-PC-_-pla-_-Eco+Gadgets-_-9SIA7BF2K27858&gclid=CjwKEAjwjYCvBRC99sSm_frioAwSJACrKuPCunmJxX9vZ2Mkz4tMRkr7J-p9sckZ41pr6rBf38wcFBoCpFDw_wcB&gclsrc=aw.ds[this one].  
+The all-important flight control sensors like the accel/gyro, barometric pressure sensor and magnetometer can then be added individually (for a total of $7) or via a combined IMU like the http://www.ebay.com/itm/like/191600135686?ul_noapp=true&chn=ps&lpid=82[GY-86 ($15] or the http://www.gearbest.com/development-boards/pp_29437.html?currency=USD&gclid=CjwKEAjwjYCvBRC99sSm_frioAwSJACrKuPCDdeFP93GEFFg26rflF1YhU9tMdLhvoy8RiNFk35FChoCesLw_wcB[GY-80 ($10]. 
+The sensors are then connected according to the following diagram-
+
+image::https://lh3.googleusercontent.com/-wxKw_L5yaew/VcouBIsNfkI/AAAAAAAAWCs/O2TV-qqmDZ8/s302-Ic42/GY-86Naze32nojtag.png[]
+
+Cleanflight or Baseflight Firmware can then be flashed to the STM32 board using the http://www.st.com/web/en/catalog/tools/PF257525[STElectronics Flash Loader Utility].  Once the firmware is successfully flashed, the board connects to the Cleanflight web-app as if it were a Naze32!
 
  

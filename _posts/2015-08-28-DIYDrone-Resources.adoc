@@ -1,0 +1,14 @@
+= DIYDrone Resources
+
+http://www.rcgroups.com/forums/showthread.php?t=2154329[DIY Naze32 Thread]
+
+http://www.rcgroups.com/forums/showthread.php?t=2114859[DIY OpenLRSng]
+
+http://www.rcgroups.com/forums/showthread.php?t=2406337[DIY OpenTX]
+
+https://endless-sphere.com/forums/viewtopic.php?f=31&t=66958[V-ESC]
+
+
+
+http://www.open-tx.org/2015/04/18/M2560-DIY-radio-documentation/
+

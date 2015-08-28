@@ -9,5 +9,16 @@ The Flight Controller (aka autopilot) functions as the robotic "brain" and as su
 === Firmware
 While the hardware capabilities of the $200 Pixhawk and the $15 CC3D may be comparable, the software interface of the Pixhawk is significantly more accessible for a non-expert. For many, the $185 more than makes up for the learning curve of the latter device.  With the list of open source autopilot programs growing every day, simply finding a single platform to work with can be overwhelming enough to turn away many before they even start!  For purposes of clarity, I will be focusing on only one platform, called http://cleanflight.com/Cleanflight[Cleanflight], but for reference purposes I will also maintain the following list of Open Source Autopilot platforms-
 
+* http://www.multiwii.com/[MultiWii]
+* https://github.com/multiwii/baseflight[Baseflight]
+* http://cleanflight.com/[Cleanflight]
+* https://www.openpilot.org/[OpenPilot]
+* http://brainfpv.com/[BrainFPV]
+* http://www.kkmulticopter.kr/index.html?modea=flycamfc[KKMulticopter]
+* http://ardupilot.com/[ArduPilot]
+* https://wiki.paparazziuav.org/wiki/Main_Page[Paparazzi]
+
+
+
 
  

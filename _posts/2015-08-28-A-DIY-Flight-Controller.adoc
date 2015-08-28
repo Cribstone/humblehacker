@@ -26,7 +26,7 @@ While the hardware capabilities of the $200 Pixhawk and the $15 CC3D may be comp
  
  === A DIY Scratch-Built Flight Controller
  
- 
+ image:: https://lh3.googleusercontent.com/-wxKw_L5yaew/VcouBIsNfkI/AAAAAAAAWCs/O2TV-qqmDZ8/s302-Ic42/GY-86Naze32nojtag.png
  
 
 

@@ -26,7 +26,7 @@ http://cleanflight.com/[Cleanflight] is a fork of another open source project ca
  
 === A DIY Scratch-Built Flight Controller
  
-image:: https://lh3.googleusercontent.com/-wxKw_L5yaew/VcouBIsNfkI/AAAAAAAAWCs/O2TV-qqmDZ8/s302-Ic42/GY-86Naze32nojtag.png
+image::https://lh3.googleusercontent.com/-wxKw_L5yaew/VcouBIsNfkI/AAAAAAAAWCs/O2TV-qqmDZ8/s302-Ic42/GY-86Naze32nojtag.png[]
  
 
 

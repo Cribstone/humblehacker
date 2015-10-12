@@ -1,0 +1,17 @@
+= CIVIC HACKING + THE MAKER MOVEMENT=CIVIC MAKING
+
+###What is Civic Hacking?
+According to http://en.wiktionary.org/wiki/civic_hacker
+> CIVIC HACKER- One who collaborates with others to create, build, and invent open source solutions using publicly-released data, code and technology to solve social, economic, and environmental challenges relevant to their neighborhood, city, state, or country.
+
+Usage of this term appears to have gone mainstream since the first [National Day of Civic Hacking](www.hackforchange.org) back in 2013, when it was [announced](http://www.whitehouse.gov/blog/2013/01/22/roll-your-sleeves-get-involved-and-get-civic-hacking) by the White House Office of Science and Technology.
+
+> 
+Civic Hacking Day is an opportunity for software developers, technologists, and entrepreneurs to unleash their can-do American spirit by collaboratively harnessing publicly-released data and code to create innovative solutions for problems that affect Americans.
+
+ Of course, there have been the workings of a "Civic Hacking Movement" before the White House made it a mainstream hashtag. Its clearest articulation, in my own experience has been in the work of [Code for America](www.codeforamerica.org) and if there's ever been a "civic hacking manifesto" in my opinion, it would have to be Code for America founder, Jen Pahlka's TEDTalk entitled, [Coding for a Better Government](http://www.ted.com/talks/jennifer_pahlka_coding_a_better_government?language=en).
+ 
+> Now there's a very large community of people that are building the tools that we need to do things together effectively. It's not just Code for America fellows, there are hundreds of people all over the country that are standing and writing civic apps every day in their own communities. They haven't given up on government. They are frustrated as hell with it, but they're not complaining about it, they're fixing it. And these folks know something that we've lost sight of. And that's that when you strip away all your feelings about politics and the line at the DMV and all those other things that we're really mad about, government is, at its core, in the words of Tim O'Reilly, "What we do together that we can't do alone."
+ 
+There is a growing concern, voiced eloquently in [this article](http://civicpaths.uscannenberg.org/2014/03/contested-civic-hacking/) that two distinct approaches have emerged with what the author describes as "competing definitions". With a "top-down bureaucratic (open data initiatives, claims of politicians, policy making)" usage standing in apparent contrast to a more "bottom-up (hackathons, decentralized software production)" approach. 
+ In my view, it is precisely because of these contradictions that civic hacking has a social significance far beyond that of a descriptive hashtag. The very fact that such a tension exists works to ensure the term doesn't simply become an empty PR trend as long as it remains true to a participatory foundation.  

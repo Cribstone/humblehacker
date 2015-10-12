@@ -1,0 +1,46 @@
+= Designing for Advocacy
+
+****Prologue and Personal Note***- 
+
+{<1>}![](/content/images/2015/Mar/USGHappy.jpg)
+I normally prefer to write in the third person, but my perspective on advocacy and service design has been so heavily influenced by recent events in my family life that it would be impossible to leave them out.
+  My son, Ulysses,was born on Valentines Feburary 14th 2015.  This happy occassion soon degenerated into trauma as he was diagnosed with a rare defect called [Esophageal Atresia](http://http://en.m.wikipedia.org/wiki/Esophageal_atresia)
+wherein he was born without a fully developed esophagus and required surgery to correct it.
+
+ So instead of coming home from Midcoast Hospital in Brunswick with a new baby boy, we found ourselves following an ambulance to the Newborn Intensive Care Unit at Maine Medical Center in Portland. In most cases like Sam's, the NICU winds up being home for months if not years.  Luckily (and it only dawned on me just how lucky we are later on) the surgery went even better then expected and we only had to forward our mail to the NICU for barely two weeks instead of the more typical 4-6 months! As of this writing, Ulysses S. (Aka "Sam") Jawitz is sleeping comfortably at home with few apparent side effects! 
+
+The dramatic details have all been recorded on http://www.caringbridge.org/visit/samjawitz so there's little need to elaborate about medical details on these pages. But there was another unexpected outcome in that living in an institutional environment 24/7 for 10 days gave me enormous insights into the significance of service design in institutional culture. This entry can therefore be considered an exercise in Institutional Ethnography and U/X testing.
+
+## Advocacy
+Wikipedia defines advocacy as
+>  a political process by an individual or group which aims to influence decisions within political, economic, and social systems and institutions.
+.[[http://en.wikipedia.org/wiki/Advocacy](http://)]  
+
+Compared to other politicized actions like "organizing", the act of advocacy usually refers to the point of confrontation between an individual or organization and an institutional power structure. 
+
+Usage becomes more complicated when applied to the health sector however.  The [wikipedia definition](http://http://en.wikipedia.org/wiki/Health_advocacy) of *Health Advocate* is more closely aligned with the work of an organizer than to political advocacy, while a [Patient Advocate](http://http://en.wikipedia.org/wiki/Patient_advocacy) is more likely focused on a single individual or group suffering from a specific afflication. Patient advocates are often family members, or even the patients themselves who might have no professional expertise but whose role is nevertheless of critical importance.
+
+Whereas political advocacy seeks to bring about change in institutional policy by forcing a confrontation with representatives of the bureacratic structure, patient advocates are most likely to confront the very individuals on whom their loved ones'lives depend.  Conversely, doctors, nurses and other medical professionals may read the patient advocate as a lack of confidence in their professional abilities or at best an unnecessary nuisance.
+
+##Advocacy in Service Design
+
+
+In my own experience in the medical world, I found myself approaching the question of service design as one were I pondered what I would do "if I were in charge of signage [etc..] in this hospital"...  But it occurs to me that this is already the wrong approach.  Designing for Advocacy should be based on the assumption that *I AM* in charge, or at least have a legitimate role to play.  The initial stage of this form of advocacy is already well underway.  Not only do medical professionals take ratings through platforms like Healthgrades, RateMDs and VITALS very seriously but even traditional review networks like Yelp! could tell us a lot about a particular location.  This Yelp reviewer in particular seemed to really speak for many others' experience-
+
+> The mediocre rating is related specifically to being able to navigate this enormous complex and receiving directions from staff/volunteers.  I had an idea where elevators were from previous visits but no idea there were so many new elevators, all with names and nothing to say where they went other than the obvious UP and down.  The first volunteer, behind the reception desk, stared blankly, shook his head, and pointed at the other volunteer who was busy with someone else (then left WITH the someone else) saying he had no idea where an echo-cardiogram would be performed.  Must have been his first day.
+
+> I found my way to the main elevators, saw myriad signs and was approached, while I was looking dazed at the signage, by a woman in blue hospital garb who clearly could see I needed help.  The only sign remotely related said Cardiac ICU which I thought was not for me.  She agreed and said take the elevator to the second floor.  ALL the signage at the elevator did not say anything about echo-cardiograms on the second floor.  Upon the elevator door opening and stepping out - directly in front of me a hand made sign with an arrow, followed later by another, and I found my way.  
+
+> Upon arriving at the correct desk everything went swimmingly from there while I was in this department.  Less well when I tried to retrieve some medical records, but this review could get really long.......
+
+ Of course, the fact that this review was also attacked by many others as focusing too much on the unimportant details and not enough on the quality of medical care, for which the consensus is of the highest grade (the fact that I am writing this post with a perfectly normal 2 week old newborn after serious surgery also attests to this fact). Should one point out (as I do) that supporting families and patients general well being should be considered part of the overall medical care, a defense could be made that MMC is no different than any other hospital in the country. Which brings me to the ultimate concern in designing for advocacy.  Making the Doctor-Patient relationship more equal...
+ 
+##Personal Health Records and Patient APIs
+   
+   Work in progress...
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+= The Internet of Things and Open Data's "Last Mile"
+
+I take it as a sign of progress that nobody seems to be debating the [Open Data](http://http://en.wikipedia.org/wiki/Open_data) concept anymore on the basis of its merits alone.  That "information wants to be free" is not only accepted as a democratic principle, but as a matter of business logic pure and simple. 
+  
+ It goes without saying that the operative question in the open data concept is one of access. Thus far,the goals of the open data movement have been overwhelmingly oriented towards obtaining the release of raw data from the jurisdiction of large public institutions. That such activities have been successful is largely due to the recognition of those in power that they have a shared interest in making information accessible. 
+  While this work is clearly important, and far from complete, it only brings us to within "the last mile" of a world where information is truly open and accessible to the majority.
+  
+In the field transportation planning, "the last mile problem" refers to the final leg of a travelers journey that takes them from the airport, train station or bus stop to their ultimate destination.
+  In the communications industry, "the last mile" refers to the means in which the information is ultimately delivered to the end-user e.g Copper Wire, WiFi etc...  
+  In both cases, the last mile is where most bottlenecks occur and ultimately comprise the least efficient piece of the network as a whole. This happens becausethe last mile is where the network most often encounters humanity... and humanity tends to involve a lot of variables, which in turn requires more resources to accomodate and more resources are less efficient.
+  
+  A deeper look into both of these examples reveals the current dillema of the open data movement.
+  
+  On the one hand, we have the transportation sector aomongst whom were some of the first to recognize open data policies were in their interest. In fact, it was in an effort to solve the "last mile" problem that they began allowing third-party mobile developers to access their schedules and vehicle feeds. 
+  
+ On the other hand however, in the telecommunications industry we have an example wherein open access is seen to be against their interest.  Their considerable power derives from the fact that transmission lines originally installed for cable television remain the only viable means of traversing the last mile in information networks. 
+ 
+   I propose that the solution can be located in a more recent phenomenon called "[the Internet of Things](http://http://en.wikipedia.org/wiki/Internet_of_Things)".  In its earliest incarnation the IOT was often promoted as  
+  
+    

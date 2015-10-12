@@ -1,0 +1,47 @@
+= Smart Health Management Part 2: PHR as API
+
+*Work in progress*
+{<1>}![](/content/images/2015/Jan/PHRIcon.png)
+{<2>}![](/content/images/2015/Feb/HiPAA.png)
+
+In the previous post, we examined a use-case for smarter medication management wherein the primary information inputs and outputs were designed and controlled entirely by the user. If we push the same use-case even further however, it allows us to understand how interaction design fits into a much larger health information ecosystem where a user-centric approach poses a possible solution to questions about open data, privacy and the growing grey area between digital and physical identity.  
+  
+  As trends in low-cost sensor technology and commercial health tracking are making them more accessible and useful to the end user, the next issue comes down to who has control over the data.   
+  As of the present,  a majority of self-tracking  apps appear to be limited to storing data locally.   
+  There could be many reasons for this, but for an industry consisting of so many indpendent, freelance developers, the potential liabilities involved in storing and sharing information subject to stringent HiPAA (The Health Insurance Portability and Accountability Act) requirments likely forms an obstacle most developers want to avoid. If so, this might be where a parallel development in OpenGov data could come in handy.  
+ 
+ One of the health reform initiatives coming out of the Obama Administration is a little known program known as the [BlueButton initiative](http://http://www.healthit.gov/patients-families/about-blue-button-movement). Alongside the Green Button (Energy Data) and the Red Button (Education Data) the Blue Button, 
+ >  lets you go online and download your health records so you can use them to improve your health, have more control over your personal health information and your family’s healthcare.
+
+.  Part of this involves a push for the creation of "[Personal Health Records](http://http://www.healthit.gov/providers-professionals/faqs/what-personal-health-record)" which would be a means for patients to track their own symptoms to provide Drs with a better diagnostic picture. Of course, as originally conceived, PHRs had all the end-user appeal of filing a tax return..  But that was all before wearable technology became a mainstream phenomenon. 
+
+Therefore, with wearable technology we have enormous creativity going into the day to day collection of personal health data, but little thought going into what can be done with the data once its collected.  While with the BlueButton and PHRs we have an enormously useful tool for users to control their own health data online, though little attention has gone into engaging the very users it would benefit... Why aren't these pieces fitting together?
+
+If the "BlueButton" API can be integrated into personal tracking services, then we might be able to solve two problems at once.  The "mobile health" sector would find a common, secure format to adhere to and healthIT would find a much more capable market for the "PHR" initiative.
+
+Its very possible that the freelance culture of the mobile app industry simply speaks a different language than the heavily regulatory nature defining the medical profession. But if there's one thing we can take away from the Civic Hacking movement over the past two years, its that the two cultures CAN be compatible! Perhaps we can find an appropriate model in current efforts towards reforming government procurement.  In the [Fixing Procurement EBook](http://http://dobtco.github.io/fixing-procurement-ebook/final/fixing-procurement-ebook/) a compelling case is made under the heading of "*Up the API Game*". 
+
+An [Application Programming Interface](http://http://en.wikipedia.org/wiki/Application_programming_interface) (API) is defined by wikipedia  as 
+
+> a set of routines, protocols, and tools for building software applications. An API expresses a software component in terms of its operations, inputs, outputs, and underlying types.
+
+Whenever someone embeds a Youtube video in their Facebook feed for example, they're making use of the Youtube API which allows them to use the Youtube product, even if its actually being viewed on Facebook.
+
+According to the *Fixing Procurement EBook* however,usage of government APIs has been somewhat different.
+
+> To date, government APIs have largely been discussed as a method for releasing data to citizens. It stems from the open government’s roots in the watchdog movement – that government data ought to be free, so that it can people can police government. Though most of the time, it’s the case that for developers, (who are really the only people who can use APIs,) most government data doesn’t really require an API as much as it requires a well thought out, well formatted, and well maintained .csv file. [sic]
+
+
+
+
+Much of the same can be said for health care data, which makes the solution all the more relevant-
+
+>   *We need to start thinking about APIs, instead, as a method for improving the user experience of government.* [emphasis added]
+
+In the context of healthcare, each patient/citizen will have various patient ID codes throughout their lives for which relevance is entirely arbitrary to each individual provider or hospital.  What if alternately such a process could be provided through a *personal API*   compiled by the patients themselves?  
+
+ 
+  
+  Just as concepts like the "Internet of Things", "Wearable tech" "Quantified Self"  etc... empowers the user move far beyond the traditional role of a passive consumer, I would like to use the following post to explore how a similarly user-oriented approach to medical data has the potential to disrupt the traditional power relationship between Doctor and Patient.
+
+ 

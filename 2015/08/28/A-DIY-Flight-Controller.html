@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>A DIY Flight Controller - Andrew Jawitz</title>
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta name="description" content="">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="A DIY Flight Controller">
+    <meta name="twitter:description" content="">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="A DIY Flight Controller">
+    <meta property="og:description" content="">
+
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="/apple-touch-icon-precomposed.png" rel="apple-touch-icon">
+
+    <link rel="stylesheet" type="text/css" href="//cribstone.github.io/humblehacker/themes/uno/assets/css/uno.css?v=1.0.0" />
+
+    <link rel="canonical" href="https://cribstone.github.io/humblehacker/2015/08/28/A-DIY-Flight-Controller.html" />
+    
+    <meta property="og:site_name" content="Andrew Jawitz" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="A DIY Flight Controller" />
+    <meta property="og:description" content="(Note-For a broad introduction to the most basic, critical components in a DIY Drone build see first this post at- https://cribstone.github.io/humblehacker/2015/08/11/DIY-Drone-Basics.html.) Hardware The Flight Controller (aka autopilot) functions as the robotic..." />
+    <meta property="og:url" content="https://cribstone.github.io/humblehacker/2015/08/28/A-DIY-Flight-Controller.html" />
+    <meta property="article:published_time" content="2015-08-28T04:00:00.000Z" />
+    <meta property="article:modified_time" content="2015-10-12T17:49:23.713Z" />
+    
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="A DIY Flight Controller" />
+    <meta name="twitter:description" content="(Note-For a broad introduction to the most basic, critical components in a DIY Drone build see first this post at- https://cribstone.github.io/humblehacker/2015/08/11/DIY-Drone-Basics.html.) Hardware The Flight Controller (aka autopilot) functions as the robotic..." />
+    <meta name="twitter:url" content="https://cribstone.github.io/humblehacker/2015/08/28/A-DIY-Flight-Controller.html" />
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "Andrew Jawitz",
+    "author": {
+        "@type": "Person",
+        "name": "Andrew Jawitz",
+        "image": "https://avatars.githubusercontent.com/u/1483570?v=3",
+        "url": "undefined/author/undefined",
+        "sameAs": "humblehackers.wikispaces.com"
+    },
+    "headline": "A DIY Flight Controller",
+    "url": "https://cribstone.github.io/humblehacker/2015/08/28/A-DIY-Flight-Controller.html",
+    "datePublished": "2015-08-28T04:00:00.000Z",
+    "dateModified": "2015-10-12T17:49:23.713Z",
+    "description": "(Note-For a broad introduction to the most basic, critical components in a DIY Drone build see first this post at- https://cribstone.github.io/humblehacker/2015/08/11/DIY-Drone-Basics.html.) Hardware The Flight Controller (aka autopilot) functions as the robotic..."
+}
+    </script>
+
+    <meta name="generator" content="Ghost ?" />
+    <link rel="alternate" type="application/rss+xml" title="Andrew Jawitz" href="https://cribstone.github.io/humblehacker/rss" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css">
+
+</head>
+<body class="post-template no-js">
+
+    <span class="mobile btn-mobile-menu">
+        <i class="icon icon-list btn-mobile-menu__icon"></i>
+        <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
+    </span>
+
+    <header class="panel-cover panel-cover--collapsed " style="background-image: url(https://lh3.googleusercontent.com/-8ip14XEBq_c/VWjNs9-WUbI/AAAAAAAAUps/W25t_SLXzEA/s800-Ic42/Pottsorama.png)">
+      <div class="panel-main">
+    
+        <div class="panel-main__inner panel-inverted">
+        <div class="panel-main__content">
+    
+            <a href="https://cribstone.github.io/humblehacker" title="link to homepage for Andrew Jawitz"><img src="https://lh3.googleusercontent.com/-53C8QrOJWQk/VVJEShHyr_I/AAAAAAAAUeE/nE-P70e1Qx4/s512-Ic42/Andrew%252540CFA.jpg" width="80" alt="Andrew Jawitz logo" class="panel-cover__logo logo" /></a>
+            <h1 class="panel-cover__title panel-title"><a href="https://cribstone.github.io/humblehacker" title="link to homepage for Andrew Jawitz">Andrew Jawitz</a></h1>
+            <hr class="panel-cover__divider" />
+            <p class="panel-cover__description">Welcome to my Personal Landing Page!  Here you can find information about my professional background, my latest blog posts and links to other projects and writings from around the web.</p>
+            <hr class="panel-cover__divider panel-cover__divider--secondary" />
+    
+            <div class="navigation-wrapper">
+    
+              <nav class="cover-navigation cover-navigation--primary">
+                <ul class="navigation">
+                  <li class="navigation__item"><a href="https://cribstone.github.io/humblehacker/#blog" title="link to Andrew Jawitz blog" class="blog-button">Blog</a></li>
+                </ul>
+              </nav>
+    
+              
+              
+              <nav class="cover-navigation navigation--social">
+                <ul class="navigation">
+              
+                  <!-- Twitter -->
+                  <li class="navigation__item">
+                    <a href="ajawitz@facebook.com" title="Facebook account">
+                      <i class='icon icon-social-facebook'></i>
+                      <span class="label">Facebook</span>
+                    </a>
+                  </li>
+              
+                  <!-- Twitter -->
+                  <li class="navigation__item">
+                    <a href="@ajawitz" title="Twitter account">
+                      <i class='icon icon-social-twitter'></i>
+                      <span class="label">Twitter</span>
+                    </a>
+                  </li>
+              
+                  <!-- Google Plus -->
+                  <li class="navigation__item">
+                    <a href="https://plus.google.com/u/0/+AndrewJawitz/about" title="Google+ account">
+                      <i class='icon icon-social-google-plus'></i>
+                      <span class="label">Google-plus</span>
+                    </a>
+                  </li>
+              
+                  <!-- Github -->
+                  <li class="navigation__item">
+                    <a href="https://github.com/Cribstone" title="Github account">
+                      <i class='icon icon-social-github'></i>
+                      <span class="label">Github</span>
+                    </a>
+                  </li>
+                  </li>
+              
+              
+              
+              
+                  <!-- LinkedIn -->
+                  <li class="navigation__item">
+                    <a href="https://www.linkedin.com/in/ajawitz" title="LinkedIn account">
+                      <i class='icon icon-social-linkedin'></i>
+                      <span class="label">LinkedIn</span>
+                    </a>
+                  </li>
+              
+                  <!-- Email -->
+                  <li class="navigation__item">
+                    <a href="mailto:andrewjawitz@gmail.com" title="Email andrewjawitz@gmail.com">
+                      <i class='icon icon-mail'></i>
+                      <span class="label">Email</span>
+                    </a>
+                  </li>
+              
+                </ul>
+              </nav>
+              
+    
+            </div>
+    
+          </div>
+    
+        </div>
+    
+        <div class="panel-cover--overlay"></div>
+      </div>
+    </header>
+
+    <div class="content-wrapper">
+        <div class="content-wrapper__inner">
+            
+
+  <article class="post-container post-container--single">
+
+    <header class="post-header">
+      <div class="post-meta">
+        <time datetime="28 Aug 2015" class="post-meta__date date">28 Aug 2015</time> &#8226; <span class="post-meta__tags tags"></span>
+        <span class="post-meta__author author"><img src="https://avatars.githubusercontent.com/u/1483570?v=3" alt="profile image for Andrew Jawitz" class="avatar post-meta__avatar" /> by Andrew Jawitz</span>
+      </div>
+      <h1 class="post-title">A DIY Flight Controller</h1>
+    </header>
+
+    <section class="post">
+      <div id="preamble">
+<div class="sectionbody">
+<div class="imageblock">
+<div class="content">
+<img src="https://lh3.googleusercontent.com/-wxKw_L5yaew/VcouBIsNfkI/AAAAAAAAWCs/O2TV-qqmDZ8/s302-Ic42/GY-86Naze32nojtag.png" alt="GY 86Naze32nojtag.png">
+</div>
+</div>
+<div class="paragraph">
+<p>(Note-For a broad introduction to the most basic, critical components in a DIY Drone build see first this post at- <a href="https://cribstone.github.io/humblehacker/2015/08/11/DIY-Drone-Basics.html." class="bare">https://cribstone.github.io/humblehacker/2015/08/11/DIY-Drone-Basics.html.</a>)</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_hardware">Hardware</h3>
+<div class="paragraph">
+<p>The Flight Controller (aka autopilot) functions as the robotic "brain" and as such is often the most expensive single piece of hardware in a drone kit (other than the RC Transmitter if one is not already owned). Pioneering open source projects like <a href="http://www.multiwii.com/" class="bare">http://www.multiwii.com/</a> and <a href="http://ardupilot.com/" class="bare">http://ardupilot.com/</a> developed autopilot firmware for 8Bit MCUs like the popular Arduino.  Most platforms at present have evolved into 32bit platforms and range from the <a href="https://store.3drobotics.com/products/3dr-pixhawk/?utm_source=google&amp;utm_medium=cpc&amp;utm_term=branded&amp;utm_campaign=branded&amp;gclid=CjwKEAjwjYCvBRC99sSm_frioAwSJACrKuPCnaGBJ4bEksK53l1tchcLxKj-pRPitv8HaP46mnS4BRoC1-Dw_wcB">$200 Pixhawk</a> to the <a href="http://www.banggood.com/OpenPilot-CC3D-Flight-Controller-Bent-Pin-STM32-32-bit-Flexiport-p-956366.html?currency=USD&amp;createTmp=1&amp;utm_source=google&amp;utm_medium=shopping&amp;utm_content=saul&amp;utm_campaign=Rc-Quad-us&amp;gclid=CjwKEAjwjYCvBRC99sSm_frioAwSJACrKuPCIe0cyLQud9HKajfvp4m6k70K4XqyfSdsf2xv-1Z_ShoCPeDw_wcB">$15 CC3D</a>.  Most modern FCs (like the Flip32+ pictured below) will be based on an STM32 MCU (instead of an 8bit Arduino) and will include an accelerometer and gyroscope for self-stabilization plus a magnetometer/digital compass for navigation.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://lh3.googleusercontent.com/-TVeOtx6bqN0/Vco2rRWg-9I/AAAAAAAAWHQ/i0iBtiS529I/s201-Ic42/Flip32%25252B.jpg" alt="Flip32%25252B.jpg">
+</div>
+</div>
+<div class="paragraph">
+<p>A combination of all three sensors, called an IMU can also be found for minimal extra cost.
+Some FCs like the Naze32 'Acro' are purposely designed for manual control and lack a magnetometer.  Such FCs will not have an autopilot capability so should be avoided by aerial mappers.
+(For a more detailed explanation of MCU hardware please see- <a href="https://cribstone.github.io/humblehacker/2015/08/13/The-DIY-Drone-Toolbox.html" class="bare">https://cribstone.github.io/humblehacker/2015/08/13/The-DIY-Drone-Toolbox.html</a>)</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_firmware">Firmware</h3>
+<div class="paragraph">
+<p>While the hardware capabilities of the $200 Pixhawk and the $15 CC3D may be comparable, the software interface of the Pixhawk is significantly more accessible for a non-expert. For many, the $185 more than makes up for the learning curve of the latter device.  With the list of open source autop
+ilot programs growing every day, simply finding a single platform to work with can be overwhelming enough to turn away many before they even start!  For purposes of clarity, I will be focusing on only one platform, called <a href="http://cleanflight.com/Cleanflight">Cleanflight</a>, but for reference purposes I will also maintain the following list of Open Source Autopilot platforms-</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="http://www.multiwii.com/">MultiWii</a></p>
+</li>
+<li>
+<p><a href="https://github.com/multiwii/baseflight">Baseflight</a></p>
+</li>
+<li>
+<p><a href="http://cleanflight.com/">Cleanflight</a></p>
+</li>
+<li>
+<p><a href="https://www.openpilot.org/">OpenPilot</a></p>
+</li>
+<li>
+<p><a href="http://brainfpv.com/">BrainFPV</a></p>
+</li>
+<li>
+<p><a href="http://www.kkmulticopter.kr/index.html?modea=flycamfc">KKMulticopter</a></p>
+</li>
+<li>
+<p><a href="http://ardupilot.com/">ArduPilot</a></p>
+</li>
+<li>
+<p><a href="https://wiki.paparazziuav.org/wiki/Main_Page">Paparazzi</a></p>
+</li>
+</ul>
+</div>
+<div class="sect3">
+<h4 id="_cleanflight">Cleanflight</h4>
+<div class="paragraph">
+<p><a href="http://cleanflight.com/">Cleanflight</a> is a fork of another open source project called <a href="https://github.com/multiwii/baseflight">Baseflight</a> which itself was created as a 32bit fork of the venerable <a href="http://www.multiwii.com/">MultiWii</a> platform. (NOTE: I have covered the differences between the 32bit derivatives and the original 8bit code in the DIYDrone Toolbox post). The programming interfaces for both Baseflight and Cleanflight are in the form of a web-app in the Chrome browser and are much more accessible than earlier incarnations.  Both have expansive support for different hardware including Naze32, CC3D etc&#8230;&#8203;  The major difference between the two is Cleanflight is developing much more rapidly and adding new improvements every week almost.  As of this writing, the one major drawback is sparse support for adding GPS navigation by waypoint on a map.  This is very likely to change however as the pace of development is accelererating.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_a_diy_scratch_built_flight_controller">A DIY Scratch-Built Flight Controller</h3>
+<div class="paragraph">
+<p>The namesake of the original MultiWii was derived from the fact that the entire flight controller could be built using nothing more than recycled electronics from a Ninetendo Wii "nunchuck" controller and an Arduino "Pro Mini".  Since that time, flight controllers have evolved into commercial products in their own right, and the old 8Bit MultiWii boards have evolved into more powerful boards like the popular <a href="http://abusemark.com/store/index.php?main_page=product_info&amp;products_id=30">Naze32</a>. Nevertheless, I still see great value in the simplicity of the original DIY approach.  Again, I elaborate in greater detail in the DIYDrone Toolbox post, but the evolution to 32bit MCUs made the DIY method much more complicated as it no longer utilized the hacker-friendly Arduino platform.</p>
+</div>
+<div class="paragraph">
+<p>Luckily, I came across the following build thread at <a href="http://www.rcgroups.com/forums/showthread.php?t=2154329" class="bare">http://www.rcgroups.com/forums/showthread.php?t=2154329</a>.  The thread gives detailed instructions on how to build the equivalent of a Naze32 flight controller from scratch using a generic STM32 develepment board like <a href="http://www.newegg.com/Product/Product.aspx?Item=9SIA7BF2K27858&amp;nm_mc=KNC-GoogleMKP-PC&amp;cm_mmc=KNC-GoogleMKP-PC-" class="bare">http://www.newegg.com/Product/Product.aspx?Item=9SIA7BF2K27858&amp;nm_mc=KNC-GoogleMKP-PC&amp;cm_mmc=KNC-GoogleMKP-PC-</a><em>-pla-</em>-Eco+Gadgets-_-9SIA7BF2K27858&amp;gclid=CjwKEAjwjYCvBRC99sSm_frioAwSJACrKuPCunmJxX9vZ2Mkz4tMRkr7J-p9sckZ41pr6rBf38wcFBoCpFDw_wcB&amp;gclsrc=aw.ds[this one].</p>
+</div>
+<div class="paragraph">
+<p>A Cleanflight or Baseflight HEX file can be flashed to the STM32 board using an FTDI adapter (connected according to the diagram)and the <a href="http://www.st.com/web/en/catalog/tools/PF257525">STElectronics Flash Loader Utility</a>.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://lh3.googleusercontent.com/-9u4RM1ouYRg/Vcot_MMVg3I/AAAAAAAAWCw/fV7yXGsrIBI/s408-Ic42/DIYNaze1stBoot.png" alt="DIYNaze1stBoot.png">
+</div>
+</div>
+<div class="paragraph">
+<p>The all-important flight control sensors like the accel/gyro, barometric pressure sensor and magnetometer can then be added individually (for a total of $7) or via a combined IMU like the <a href="http://www.ebay.com/itm/like/191600135686?ul_noapp=true&amp;chn=ps&amp;lpid=82">GY-86 ($15</a> or the <a href="http://www.gearbest.com/development-boards/pp_29437.html?currency=USD&amp;gclid=CjwKEAjwjYCvBRC99sSm_frioAwSJACrKuPCDdeFP93GEFFg26rflF1YhU9tMdLhvoy8RiNFk35FChoCesLw_wcB">GY-80 ($10</a>.
+The sensors are then connected according to the following diagram-</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="https://lh3.googleusercontent.com/-c3XUoKfr9eA/VcouASDTH5I/AAAAAAAAWCY/fCB0Fzi16d8/s404-Ic42/DIYNazeProgramming.png" alt="DIYNazeProgramming.png">
+</div>
+</div>
+<div class="paragraph">
+<p>Once the firmware is successfully flashed, the board connects to the Cleanflight web-app as if it were a Naze32!</p>
+</div>
+</div>
+    </section>
+
+  </article>
+
+
+
+
+            <footer class="footer">
+                <span class="footer__copyright">&copy; 2015. All rights reserved.</span>
+                <span class="footer__copyright"><a href="http://uno.daleanthony.com" title="link to page for Uno Ghost theme">Uno theme</a> by <a href="http://daleanthony.com" title="link to website for Dale-Anthony">Dale-Anthony</a></span>
+                <span class="footer__copyright">Proudly published with <a href="http://hubpress.io" title="link to Hubpress website">Hubpress</a></span>
+            </footer>
+        </div>
+    </div>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js?v="></script> 
+      <script type="text/javascript">
+        jQuery( document ).ready(function() {
+          // change date with ago
+          jQuery('ago.ago').each(function(){
+            var element = jQuery(this).parent();
+            element.html( moment(element.text()).fromNow());
+          });
+        });
+
+        hljs.initHighlightingOnLoad();      
+      </script>
+
+    <script type="text/javascript" src="//cribstone.github.io/humblehacker/themes/uno/assets/js/main.js?v=1.0.0"></script>
+    
+
+</body>
+</html>

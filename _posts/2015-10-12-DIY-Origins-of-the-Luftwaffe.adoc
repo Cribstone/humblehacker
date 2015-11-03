@@ -1,0 +1,30 @@
+= DIY Origins of the Luftwaffe
+<p></p>
+<p><strong><span class="font-size-4"><a href="http://www.fiddlersgreen.net/aircraft/Primary-Glider/IMAGES/German-Primary-Glider.jpg" target="_blank"><img src="http://www.fiddlersgreen.net/aircraft/Primary-Glider/IMAGES/German-Primary-Glider.jpg" class="align-full"/></a></span></strong></p>
+<p></p>
+<p></p>
+<p><span class="font-size-3"><strong>How a simple, DIY-inspired design helped create the worlds most dangerous flying corps.</strong></span></p>
+<p></p>
+<p><strong><span class="font-size-4">   </span></strong><span class="font-size-4"> <span class="font-size-3">When World War 1 came to an end in 1918, the victorious allies took care to<span> heavily restrict the military development of powered flight in </span>the Treaty of Versailles.  It wasn't long however, until the land of the<span> </span><a href="http://en.wikipedia.org/wiki/Manfred_von_Richthofen" target="_blank">Red Baron</a><span> discovered a loophole wherein the treaty overlooked the use of <em>unpowered flight</em> as a military training tool. The resulting training regime used a brilliantly simple design called a <em>Schulgleiter</em>(English: <em>School glider</em>) and arguably produced the finest airmen in all of WWII (at least when evaluating individual skills alone...).</span></span></span><span class="font-size-4"> </span></p>
+<p><span class="font-size-4">   <span class="font-size-3">  For a regime better known for engineering achievements like the ME-262 (the world's first jet fighter),  than for inspired design practices as those that produced Russia's <a href="http://en.wikipedia.org/wiki/T-34" target="_blank">T-34 Tank</a> or Britain's plywood <a href="http://en.wikipedia.org/wiki/De_Havilland_Mosquito" target="_blank">Mosquito Bomber</a>, the <em>Schulgleiter </em>is truly extraordinary.  Officially designated the <a href="http://en.wikipedia.org/wiki/DFS_SG_38_Schulgleiter" target="_blank">DFS-SG-38 Schulgleiter</a>, the craft had a simple stick for steering, foot pedals for flaps and little else.<br/>
+</span></span></p>
+<p><span class="font-size-4"><span class="font-size-3"><a href="http://upload.wikimedia.org/wikipedia/commons/5/5d/Fotothek_df_ld_0003142_001_Sport_%5E_Flugsport_%5E_Segelflug.jpg" target="_blank"><img class="align-center" src="http://upload.wikimedia.org/wikipedia/commons/5/5d/Fotothek_df_ld_0003142_001_Sport_%5E_Flugsport_%5E_Segelflug.jpg"/></a></span></span></p>
+<p><strong><span class="font-size-4"> </span></strong> <span class="font-size-4"> </span></p>
+<p><span class="font-size-4">  <span class="font-size-3">The gliders would be launched by a giant bungee chord on a mountain known as the <a href="http://en.wikipedia.org/wiki/Wasserkuppe" target="_blank">Wasserkuppe</a> where gentle slopes and perfect tailwinds make it the heart of German aviation to this very day.  The following image shows a Schulgleiter in mid-launch position, and the 1940 vintage training video shows how the process worked.</span></span></p>
+<p><span class="font-size-4"><span class="font-size-3"><a href="http://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Gleiter.jpg/800px-Gleiter.jpg" target="_blank"><img class="align-center" src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Gleiter.jpg/800px-Gleiter.jpg"/></a></span></span></p>
+<p></p>
+<p><iframe width="560" height="315" src="http://www.youtube.com/embed/KROHP16quh0?wmode=opaque" frameborder="0"></iframe>
+</p>
+<p></p>
+<p>  With such ideal flight conditions, the SchulGleiter was far from the only aircraft developed at the <a href="http://en.wikipedia.org/wiki/Wasserkuppe" target="_blank">Wasserkuppe</a>, nor was it the only advance in unpowered flight at the time.  <a href="http://en.wikipedia.org/wiki/Horten_brothers" target="_blank">The Horten Brothers</a> are best known for developing the <a href="http://en.wikipedia.org/wiki/Horten_Ho_229" target="_blank">Ho-229</a>. A jet-powered, Flying Wing with characteristics so far ahead of its time, that Northrop Grumman, designers of the B2 Stealth bomber, famously <a href="http://youtu.be/MqgfjXaJxV8" target="_blank">constructed a replica</a> for the purposes of testing its stealth characteristics.</p>
+<p><a href="https://s-media-cache-ak0.pinimg.com/736x/1b/2f/86/1b2f86c9191bc87fac26d96481160708.jpg" target="_blank"><img class="align-center" src="https://s-media-cache-ak0.pinimg.com/736x/1b/2f/86/1b2f86c9191bc87fac26d96481160708.jpg"/></a></p>
+<p></p>
+<p><a href="http://s1.e-monsite.com/2009/07/15/03/253902990-jpg.jpg" target="_blank"><img class="align-center" src="http://s1.e-monsite.com/2009/07/15/03/253902990-jpg.jpg"/></a></p>
+<p></p>
+<p>  While the Ho-229 has attracted a sizable following of aircraft modelers and enthusiasts, less attention has focused on the fact that such a high-tech marvel is almost entirely derived from seemingly low-tech glider designs.  Going back as far as the First World War, the Horten's had been developing the flying wing concept as a glider.  Such designs might appear familiar to readers of DIYDrones, though some might warrant further research.</p>
+<p><a href="http://becher1.greyfalcon.us/pictures4/hortens.jpg" target="_blank"><img class="align-full" src="http://becher1.greyfalcon.us/pictures4/hortens.jpg"/></a> </p>
+<p>   Of the unpowered-wings, the best known is perhaps the <a href="http://en.wikipedia.org/wiki/Horten_H.IV" target="_blank">Horton H.IV</a> whose extremely broad, thin wingspan was a breakthrough in tailless aircraft design.</p>
+<p><a href="http://www.nurflugel.com/Nurflugel/Horten_Nurflugels/ho_iv/ho_iv_at_minden.jpg" target="_blank"><img class="align-center" src="http://www.nurflugel.com/Nurflugel/Horten_Nurflugels/ho_iv/ho_iv_at_minden.jpg"/></a></p>
+<p></p>
+<p><a href="http://www.the-blueprints.com/blueprints-depot/ww2planes/horten/horten-iva-flying-wing-sailplane-2.png" target="_blank"><img class="align-full" src="http://www.the-blueprints.com/blueprints-depot/ww2planes/horten/horten-iva-flying-wing-sailplane-2.png"/></a></p>
+<p> </p>

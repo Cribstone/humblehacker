@@ -1,0 +1,75 @@
+= DIY Drone Basics
+
+
+image::https://lh3.googleusercontent.com/-6k6u9-Y-C78/Vcoy0BxUT2I/AAAAAAAAWD4/SiLY0lNjvR0/s576-Ic42/BlueDroneGraphic.png[]
+
+
+== Fundamentals 
+
+As the development of UAVs for consumer use is still in its infancy, and most are still considered expensive toys for the wealthy, it is becoming easier and easier to build highly sophisticated vehicles at a fraction of the cost, with capabilities far surpassing current commercial offerings. Thanks to online communities like www.MultiWii.org and www.diydrones.com, newcomers can find detailed documentation outlining every step of designing, building and flying your own unmanned aircraft using only generic, off-the-shelf electronics and homemade materials. Such documentation is often oriented towards other experts however, so those who are just getting started might find the technical language difficult to understand. Thus before I document how I went about building my own low-cost/DIY drone,it might be necessary to go over some of the basic terminology and fundamental concepts behind small autonomous aircraft at present.
+
+== Anatomy of a Drone
+
+While there are always exceptions, most small UAVs on the market, whether they be high-end commercial or completely scratch-built DIY versions, will include the following components. Note that some electronic components like the Transmiiter, Receiver, GPS and various sensors included in the Flight Control Board will remain the same whether a fixed wing aircraft or Multirotor.  However, hardware components like the ESCs and Brushless Motors will vary according to the type of vehicle.  Thus a quadrotor will require four ESCs and four Brushless Motors, while a fixed-wing will normally only require one each.  Fixed-wing aircraft normally require servo motors to control the ailerons and elevators though they are not included in this overview.
+
+image:https://lh3.googleusercontent.com/-E5ydX3qd60A/Vco0_MHAYoI/AAAAAAAAWE8/JLCx_rh10Vk/s100-Ic42/radiocontrol.png[] 
+
+=== RC Transmitter
+The RC Transmitter actually consists of two different tools in one package. Confusingly, it refers the handheld control station including the manual joysticks for throttle, altitude and direction as well as multiple switches that can be programmed to serve a wide variety of different modes and functions. The actual transmitter, which relays these commands wirelessly to the aircraft is normally hidden inside the electronics. Even more confusingly, transmitters are often tuned to a fixed proprietary transmission protocol such as DSMx, FlySky, Futaba etc...for which a compatible receiver must also be connected to the aircraft.  Therefore, many commercial controllers will only work with a certain type of receiver. As a result some specialty hobby distributors will sell the controller and the transmitters seperately.  Users can then use one controller with several different Transmitter "modules" as necessary.  
+
+Various creative open source/DIY solutions to problems of compatibility have been developed by the hobbyist user-community and will be the subject of another post.
+
+
+image:https://lh3.googleusercontent.com/-ZJ2DXyo-M9Q/Vco2IL4safI/AAAAAAAAWFo/mlvAe31AXpo/s80-Ic42/Wireless.png[]
+
+=== RF Receiver
+ 
+The Wireless Receiver is connected to the flight controller and relays commands from the manual joystick controls and various switches. As previously mentioned, the receiver must be compatible with the transmitter. In some advanced configurations, real-time telemetry can be sent back to the Control Box using Bluetooth or other wireless protocols.
+
+
+image:https://lh3.googleusercontent.com/-3i-LRLpxcpo/VcthefMmeaI/AAAAAAAAWJ0/bsqF-wwhdeA/s55-Ic42/path4.png[]
+
+=== GPS Receiver
+A GPS receiver is essential for auto-navigation capabilities.  They are normally added as a seperate module.
+
+image:https://lh3.googleusercontent.com/-vmQX54oVpy8/Vco2C_M1o2I/AAAAAAAAWFY/HZxksw9rx88/s100-Ic42/cpu.png[]
+
+=== Flight Control Board
+The Flight Controller is the vehicles brain. The actual control unit is normally a Microcontroller chip (or MCU) such as the 8Bit Arduino (in earlier models) or the 32Bit STM32 (in most recent versions).  To control the aircraft, the MCU must process data from several different sensors.  Commercially available flight boards such as the Naze32, Multiwii Pro, OpenPilot, APM will come with these sensors already preconfigured while DIY designers will need to connect the sensors manually.  In order to support true autonomous flight, the following sensors, in addition to the GPS, will be required-
+      
+
+image:https://lh3.googleusercontent.com/-IgNf00sCZe0/Vco2B0xTfyI/AAAAAAAAWFQ/bfLg6UQWLM8/s80-Ic42/Compass.png[] 
+
+==== The Magnetometer
+
+The magnetometer is a digital compass and navigates the drone to preplotted waypoints.
+
+image:https://lh3.googleusercontent.com/-DFaWkr1
+t-c0/Vco-ycOF4YI/AAAAAAAAWIc/Ihp6v5ftxMo/s96-Ic42/mini10DOF.png[] 
+
+==== The Accelerometer
+The Accelerometer controls up/down and forward backward motion
+
+image:https://lh3.googleusercontent.com/-LuI-imYFDEs/Vco8x_0u5iI/AAAAAAAAWH4/VpXKkiUhXNE/s113-Ic42/miniGyro.png[] 
+
+==== The Gyroscope
+The gyroscope keeps the drone level with the horizon.
+
+image:https://lh3.googleusercontent.com/-jJUWorf17KY/Vco9hGTr1OI/AAAAAAAAWIE/wZ8DysO1rIg/s80-Ic42/esc.png[] 
+
+=== Electronic Speed Controls (ESC)
+Electronic Speed Controls (ESC) provide power to the Flight Controller and the Brushless Motors by connecting directly to a battery power source. It also performs another important role by translating digital commands from the Flight Controller into raw  electric current to power the Brushless Motors.  
+
+
+image:https://lh3.googleusercontent.com/-fp0OIM-DgKc/Vco-Nn6SE6I/AAAAAAAAWIM/V_mfbb8ZcOQ/s80-Ic42/smallBrushlessMotor.png[] 
+
+=== Brushless DC Motors
+
+Modern hobby drones almost exclusively use Brushless Electric Motors due to their superior efficiency, durability, torque and speed.  The major disadvantage compared to brushed motors are the requirement for additional speed controls.  However, with ESC components getting smarter and cheaper every day, this disadvantage the Brushless Motors.  While only one ESC is needed to power the Flight Controller.
+
+
+
+
+
+
+.

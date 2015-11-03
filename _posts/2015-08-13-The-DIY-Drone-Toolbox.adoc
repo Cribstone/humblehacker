@@ -1,0 +1,54 @@
+= The DIY Drone Toolbox
+
+image::https://lh3.googleusercontent.com/-2QxxOjoymWY/Vcot-gP1q3I/AAAAAAAAWC0/kHki3_hMWC4/s640-Ic42/DIYDroneToolbox.png[]
+
+Whether or not you plan to build a 98% DIY Drone or simply want to learn how to make back ups for existing parts, one would be amazed how much you can do with just these few basic building blocks.
+
+== Arduino
+ 
+A microtroller (MCU) chipset specializes in converting analog inputs into digital outputs and vice versa. While there are many different MCU manufacturers, Arduino hardware is specifically oriented towards protyping and experimentation while its programming code is well known for being especially friendly to beginners. They were also one of the first companies to open source their hardware designs along with their source code.  All these factors have combined to make it extremely popular across the creative spectrum from artists to electrical engineers.  Such popularity has in turned spawned an enormous community of user-contributors whose source code creates literally thousands of applications.
+
+Early UAV autopilot platforms like http://www.multiwii.com/ and http://copter.ardupilot.com/ grew out of this very same phenomenon. In fact it could be argued that without Arduino, the modern consumer UAV industry would still be a small niche market for expensive toys as the flight controller concept evolved out of these user-contributor communities.
+
+=== Arduino Pro Mini
+
+Arduino boards come in many different variants, with many different features.  By far the most popular variant for DIY Drone applications is known as the Arduino Pro Mini-
+
+image::https://lh3.googleusercontent.com/-V7kgCQTH2Zg/Vcy9z0w4DYI/AAAAAAAAWKc/DRz0wXOeQPo/s117-Ic42/ProMinisolo.png[]
+
+These compact 8bit boards can be ordered for as cheap as $3 each and their versatility is such that they could be used to build almost every essential electronic component on a drone (incl. the Flight Controller, Transmitter, Receiver, and even the ESCs!) save the brushless motors! Their usage as Flight Controllers has recently been eclipsed by more powerful 32Bit boards, but they remain important pieces of DIY transmitter/receivers like OpenLRSng and some hardcore DIYers will use them to build DIY ESCs such as the VESC project-http://vedder.se/2015/01/vesc-open-source-esc/.
+
+I will be outlining how to use a Pro Mini in a DIY OpenLRSng RX/TX in a later post.
+
+=== Arduino Mega2560
+
+There are some cases where 8Bits of memory are sufficient, but many more inputs and outputs are required then the compact Arduino Pro Mini can provide.  The massive Arduino Mega2560 was developed for such use cases, and variants of this board are still very much in demand as Multiwii Flight Controllers. 
+
+image::https://lh3.googleusercontent.com/-Xpi6hYVXUE8/Vcy9zwMc1tI/AAAAAAAAWKo/cujPzG1Mk7w/s288-Ic42/mega2560solo.png[]
+
+I will be using a Mega2560 to build a DIY Controller/Transmitter with OpenTX firmware in a later post.
+
+== 8bit vs 32bit MCUs 
+32Bit MCUs offer more memory and processing power. When it comes to a CPU processor like those powering a laptop, more RAM is almost always better.  In an MCU however, where performance is measured by its ability to process inputs and outputs from both analog and digital sources, more RAM isn't necessarily going to help.
+
+Furthermore, whereas the majority of 8bit MCUs used in remote control or small autonomous aircraft are based on an AVR architecture https://en.wikipedia.org/wiki/Atmel_AVR.  32bit MCUs are based on an ARM chipset similar to those that power smartphones.  The difference in the underlying architectures inevitably means that compatibility will be difficult.
+
+Nevertheless, 32bit platforms have proven attractive to developers of Flight Controllers in particular. As a result, platforms like Cleanflight, which feature capabilities like RGB LED support and GPS waypoint navigation are exclusive to 32bit Flight Controllers.  Some commercially available Radio Controller/Transmitters such as the Turnigy 9XR Pro have also adopted 32bit processors though I am not aware of any DIY equivalents at this time.
+
+=== Arduino DUE
+If the original AVR Arduino's are like the original Star Wars trilogy, then Arduino's attempt at a 32bit architecture is like "The Phantom Menace"...  
+
+image::https://lh3.googleusercontent.com/-lZxh9zUViTU/Vcz8A2Yp6MI/AAAAAAAAWLc/JW_Jbf-ItAo/s272-Ic42/ArduinoDue.png[]
+
+The Arduino DUE footprint resembles that of the Mega2560, but it has none of the versatility that made its predecessors so popular.  As the first member of the Arduino familiy with an ARM architecure, software support for the took an eternity in software years.  Worse still is that all previous AVR arduino's were rated for 5v but the DUE was only rated for 3.3v.  This meant it couldn't work with most of the many "shield" attachments that made the original boards so powerful.
+With no equivalent to the "Pro Mini" layout, and a $40 price tag, few could find a role for the DUE on a UAV.
+The one possible DIY Drone use-case for a DUE would be in the fact that the Turnigy 9xR-Pro Controller/Transmitter is based on the same AT91SAM3X chipset.  It possible that a DIY 9xrPro could simply replace the Mega2560 in a DIY build. As far as I am aware nothing of the sort has been attempted.
+
+=== STM32
+
+To continue with the Star Wars analogy...  While the "The Phantom Menace" might have soured an entire generation by relying too much on digital effects, at the same time "The Lord of the Rings" was proving that analog and digital techniques could still work well together in the right balance.  In the world of electronics, part of "The Lord of the Rings" is played by another microcontrollers called the STM32.
+
+image::https://lh3.googleusercontent.com/-2obnU17yBWs/Vcy935zBXfI/AAAAAAAAWK0/EjI_lg8D8sk/s220-Ic42/STM32solo.png[]
+
+The STM32 is an ARM chipset manufactured by STElectronics https://en.wikipedia.org/wiki/STM32.  The MCU comes in many different configurations of which most are oriented towards industrial applications. However, there are several different boards such as the STMDiscovery, the NUCLEO and the MAPLE which are intended for prototyping purposes and some are even designed to be compatible with Arduino. The ST production model is very different from that of Arduino, where the brand has become the generic term for 8bit prototyping boards regardless of the actual manufacturer. Instead, the STM32 is licensed to a wide variety of appliations similar to the OEM model with Microsoft Windows. This industrial model has given the STM32 its main quality that makes it so attractive to developers and tinkerers...  It is very VERY cheap!!!  The model pictured above, for example, is used as the main component in the DIY Naze32 Flight Controller.  This particular version, classified as a STM32F103C8T6, can be purchased for roughly $6 each!  Small batch orders of 300 bring that cost down to $3 each! The same batch order of the 32bit Atmel SAM3X8E would cost almost $2600 compared to $900 for the STM32!  
+By adopting the STM32, open source Flight Controllers like the Naze32 clone known as Flip32 can offer cutting edge 

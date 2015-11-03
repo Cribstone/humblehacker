@@ -1,0 +1,53 @@
+= A Bureaucratic Ethnography
+
+**Scene: Maine Medical Center Cafeteria**
+
+*Scrolling LCD screen displays breakfast menu including an option for a Bacon, Egg and Cheese Sandwich.*
+
+**ME:** Can I have a bacon, egg and cheese sandwich please?
+
+**Cafeteria Worker:** Can you wait just a minute please? 
+
+*Worker, looking confused consults with a supervisor who then flags down the floor manager.*
+
+"Sorry...No breakfast sandwiches... Its a Holiday..."
+
+**ME:** I guess I just don't see the connection...
+
+*Manager shrugs her shoulders*
+
+*I consider my options and notice they have eggs, cheese, bacon and English Muffins laid out seperately.*
+
+**ME:** Can I just make a breakfast sandwich myself then?
+
+**Manager:** You will have to pay for each item seperately.
+
+The exchange recounted above might well be one of the most memorably banal moments of my life.  It seemed to so perfectly capture the bizzare logic accompaning all institutions, be they prisons, hospitals or universities, that I felt none of the usual frustrations and feelings of powerlessness that usually ensues.  
+
+http://en.wikipedia.org/wiki/Institutional_Ethnography
+
+ Still, I am grateful that the interaction took place as it gave me something to ponder in an otherwise difficult time...  Finally, just before the happy day of Sam's discharge, the answer came to me!
+ 
+  One must understand the context and layout of the cafeteria to fully appreciate the logic.  For one thing, they don't call it a cafeteria but rather a "cafe" which provides a clue towards what they were driving at...  Of course, by almost any other measure it is most certainly a "cafeteria".  Complete with lunch trays and a centrally located salad bar with vegetables of the type we used to be forced to eat in the 1980s.  There was a twist to this typical cafeteria theme however, and herein lies the answer to the "no breakfast sandwiches on holidays" rule...  The hot food was served through three seperate kiosks for which each had a fake exterior modelled around it with signs to the effect of "Lighthouse Grille" etc...  as if they were all independent establishments.  Of course, they weren't REALLY independent franchises, but rather different means of delivery food that came from the same vendor.  Yet I suspect, the management structured is patterned on the assumption that they actually are independent.  So even though all the food appears on the same menu, breakfast sandwiches are only made at the "Lighthouse Grille" and apparently this is what remained closed during the holidays...  Mystery solved!
+  
+  Now how to read this story in the context of service design?  I read it as a perfect artifact of service design in its very early stages. That is, a well intentioned response to the dehumanizing brutalism that had finally lost any justification by the 1990s.  yet, for all its good intentions, service design remained a fundamentally "top-down" exercise.  So the end result was always subject to the good but nevertheless misguided intentions of a single architect or designer.
+
+  Judging from the prevalence of Green Mountain Coffee and styrofoam cups, my initial thought was that the redesign of the cafeteria occured sometime in the 1990s.  According to the article below, I was just a few years off.
+
+**WITH CHEF'S TABLE A SHOWPIECE: Maine Medical Center cafe makes the right impression.**
+Article from: Food Service Director | June 15, 2001 | Chater, Amanda http://connection.ebscohost.com/c/articles/6647171/chefs-table-showpiece-maine-medical-center-cafe-makes-right-impression
+
+
+> The recent renovation of the cafe at Maine Med. Ctr. (Portland) is boosting the health of the bottom-line, as well as the health of the customer base it serves, thanks to a partnership with the hospital's Maine Heart Ctr.
+
+> "We wanted to make two statements," says Mary Keysor, MS, RD, dir. of food and nutr. svcs. "We wanted people to see fresh food and have the right perception of it; and we are working with the cardiac center, which funds some educational initiatives, to teach customers about heart-healthy products."
+
+> The right impression: Impressions Cafe is designed as a marketplace concept, based around a central island which is used for exhibition cooking. The sandstone variegated brick floor gives a market feel, complemented by the black granite countertops and cherry wood. Chefs cook to-order at three stations--the work, stone oven and grill--reinforcing the fresh concepts. …
+
+  I love the use of "concepts" as if it is a "marketplace" or 'fresh" only in concept...  Contrast this with the fact that Portland, Maine enjoys one of the country's best "farm to table" markets with more Community Supported Agriculture's and organic farms within driving distance than any other metro region except the other Portland (where they have an artificial urban growth boundary so it doesnt count...)  
+  
+  There are many more great examples of a marketplace dynamic barely a few blocks away in Portland. The highly successful [Portland Public Market House](http://http://www.publicmarkethouse.com/) on Longfellow Square might be a little heavy on the hipster chic, but it does highlight how social vitality makes a marketplace rather than the other way around.
+  
+  But the very best example, is not only local but eminently achievable.  Just 3 miles down the road from my house, a public charter school called the Harpswell Coastal Academy, set up shop in a recently vacated school building made available after a contentious consolidation ruling by the school board. With so many great CSAs in the neighborhood, the school just couldn't fathom paying four times more for greasy pizza provided by the only food vendor available...  So they created a new Lc3 Low Profit Business called the [School House Cafe](http://http://www.harpswellschoolhousecafe.com/) which would provide daily school lunches from local produce and use the money to subsidize a public cafe that could be open year round (in an area where winter residents usually have to drive 45 minutes to the grocery store).  When summer comes around, theres more than enough tourists to turn a profit!
+  
+  The best part about the latter example is something similar would be entirely feasible at Maine Medical Center. The fact that MMC is still relatively small means the management decisions are still relatively accessible.  So I wouldn't be surprised to see the cafeteria resembling the 21st century sometime soon.  I just hope I dont have to see it until the end of the 21st Century.  or in Sam's case, the 22nd... 

@@ -1,0 +1,25 @@
+= Low Cost Quadcopter Build for DIY Mapping
+
+
+
+grassrootsmapping
+
+=== What I want to do
+
+I want to build a programmable aerial mapping vehicle that I can use as an interim testbed to refine various DIY/Open Source methods that will eventually be included in a related project for an [affordable mapping drone](http://publiclab.org/notes/code4maine/08-05-2014/aerial-mapping-drone-for-under-60).
+
+image::https://lh3.googleusercontent.com/-VuFdGoKo3UE/VcouDCctNRI/AAAAAAAAWDU/XHdkf7FCV7A/s640-Ic42/Quadannotated.png[]
+
+
+In addition to testing flight components, the vehicle will also be a testbed for a wide variety of aerial sensors including a low-cost Camera's, LIDAR sensors and GPS.
+
+=== My attempt and results
+
+==== The -$100 Flying Wing
+This project is an outgrowth of, and a complement to an earlier project that sought to build a fully programmable UAV for under $100. To keep costs down, project parameters stipulated that as much of the aircraft as possible should to be constructed out of standardized, off-the-shelf materials including the electronics which were designed around an Arduino Microcontroller and a Gyro-acceleromoter module extracted from a Ninetendo Wii remote. A flying-wing configuration using recycled foam allowed for further efficiency as it required only one motor and speed controller to remain in the air for longer periods.  
+  That project is still very much in progress and remains the ultimate goal.  However, while I was amazed at how much could be achieved with nothing more than an Arduino pro Mini and a Wiimote, the project reached a critical juncture when it became clear that the 8bit Arduino would not be up to the task of following preprogrammed flight patterns by GPS waypoint. As this capability is central to the task of aerial mapping, the entire project has been forced to go "back to the drawing board"...
+
+==== Quadcopter
+As counter-intuitive as it may seem, the simpler design in this case (the flying wing) turned out to be far more difficult than a more technologically complex design like a quadcopter.  In the world of DIY/Open Source, everything depends on there being enough documentation and support for any particular project.  As the quadcopter configuration has become the most popular over the last decade, it is far easier to start from scratch as you can depend on there being ample support from other users whenever a problem is encountered.
+
+(In Progress)  

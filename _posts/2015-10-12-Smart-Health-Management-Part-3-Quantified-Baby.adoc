@@ -1,0 +1,20 @@
+= Smart Health Management Part 3: Quantified Baby
+
+While my interest in smarter health management options began initially as a method for tracking daily medication use, recent personal experience (see "[Designing for Advocacy](http://http://nodejs-humblehacker.rhcloud.com/designing-for-advocacy-2/)" post for details) has compelled me to devote significantly more attention to the issue. 
+ 
+In summary, my son was recently born with a rare birth defect diagnosed as [Esophageal Atresia](http://http://en.wikipedia.org/wiki/Esophageal_atresia) and while he was extremely lucky to have it corrected in surgery, significant follow-up is necessary to ensure further complications don't develop.
+As a result my search for an Open Source PHR platform with support for personal tracking features has suddenly become much more important.
+ Thus far, we have been using the [baby-connect](http://http://www.baby-connect.com/) app for Android to log various daily entries including frequency of changes, feedings, weight, appointments, medical issues etc... In addition to the general value of logging such information, its value in the immediate short term (allowing us to keep track of how much he has eaten etc...) provides a great incentive to stick to the routine of manually inputting data on a regular basis.
+ 
+  So long as the entries remain consistent, the medical value of such data will increase over time.  As early as our second follow-up appointment with the pediatrician, such tracking made a significant difference as working from memory compelled us to provide inaccurate information regarding his previous weight.  Which led to an erroneous concern that he was having nutritional difficulties.
+  
+  With the medical value   Unfortunately, it has no direct support for MHV syncronization and the developers even confirmed that they have no plans to do so. I am using MHV to keep track of my son's medical records, daily tracking logs and appointments in a single location.  This is very important as he was born with a rare birth defect diagnosed as Esophageal Atresia and while he was extremely lucky to have had it corrected in surgery, there is significant follow-up necessary to ensure further complications don't develop.  Therefore it is of the utmost importance that we are not only able to keep his records and appointments with various specialists in a single location but also that we are able to log daily reports concerning feedings, weight gain, frequency of changes etc...
+
+ Thus far, we have been using baby-connect for Android to log various entries throughout the day.  My wife prefers it for its many entry options and editable functions.  Unfortunately, it has no direct support for MHV syncronization and the developers even confirmed that they have no plans to do so.  If there were any other options for Android with MHV support, I would certainly switch but there appears to be nothing of the sort.  So that leaves .csv export/import as our only option.  This wouldn't be too difficult if there was a way to format the data in HV.  As it currently stands, the HV interface is oriented towards adult exercise metrics, but I would need to add things like daily feedings via formula, breast milk, pumpings, frequency of diaper changes, weight gain, growth etc... 
+
+ So my questions for the Healthvault team are as follows-
+
+Are there any full featured Android Baby-Tracking apps with full support for HV?
+Are there any recommendations for formatting the data via .csv before import?
+How can I reformat the HV interface to accomodate Baby-Tracking metrics?
+Is there a 3rd Party App that can perform these necessary functions?

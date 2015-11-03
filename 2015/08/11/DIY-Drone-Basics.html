@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>DIY Drone Basics - Andrew Jawitz</title>
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta name="description" content="">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="DIY Drone Basics">
+    <meta name="twitter:description" content="">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="DIY Drone Basics">
+    <meta property="og:description" content="">
+
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="/apple-touch-icon-precomposed.png" rel="apple-touch-icon">
+
+    <link rel="stylesheet" type="text/css" href="//cribstone.github.io/humblehacker/themes/uno/assets/css/uno.css?v=1.0.0" />
+
+    <link rel="canonical" href="https://cribstone.github.io/humblehacker/2015/08/11/DIY-Drone-Basics.html" />
+    
+    <meta property="og:site_name" content="Andrew Jawitz" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="DIY Drone Basics" />
+    <meta property="og:description" content="Fundamentals As the development of UAVs for consumer use is still in its infancy, and most are still considered expensive toys for the wealthy, it is becoming easier and easier to build highly sophisticated vehicles at a fraction of the..." />
+    <meta property="og:url" content="https://cribstone.github.io/humblehacker/2015/08/11/DIY-Drone-Basics.html" />
+    <meta property="article:published_time" content="2015-08-11T04:00:00.000Z" />
+    <meta property="article:modified_time" content="2015-10-12T17:49:23.732Z" />
+    
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="DIY Drone Basics" />
+    <meta name="twitter:description" content="Fundamentals As the development of UAVs for consumer use is still in its infancy, and most are still considered expensive toys for the wealthy, it is becoming easier and easier to build highly sophisticated vehicles at a fraction of the..." />
+    <meta name="twitter:url" content="https://cribstone.github.io/humblehacker/2015/08/11/DIY-Drone-Basics.html" />
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "Andrew Jawitz",
+    "author": {
+        "@type": "Person",
+        "name": "Andrew Jawitz",
+        "image": "https://avatars.githubusercontent.com/u/1483570?v=3",
+        "url": "undefined/author/undefined",
+        "sameAs": "humblehackers.wikispaces.com"
+    },
+    "headline": "DIY Drone Basics",
+    "url": "https://cribstone.github.io/humblehacker/2015/08/11/DIY-Drone-Basics.html",
+    "datePublished": "2015-08-11T04:00:00.000Z",
+    "dateModified": "2015-10-12T17:49:23.732Z",
+    "description": "Fundamentals As the development of UAVs for consumer use is still in its infancy, and most are still considered expensive toys for the wealthy, it is becoming easier and easier to build highly sophisticated vehicles at a fraction of the..."
+}
+    </script>
+
+    <meta name="generator" content="Ghost ?" />
+    <link rel="alternate" type="application/rss+xml" title="Andrew Jawitz" href="https://cribstone.github.io/humblehacker/rss" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css">
+
+</head>
+<body class="post-template no-js">
+
+    <span class="mobile btn-mobile-menu">
+        <i class="icon icon-list btn-mobile-menu__icon"></i>
+        <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
+    </span>
+
+    <header class="panel-cover panel-cover--collapsed " style="background-image: url(https://lh3.googleusercontent.com/-8ip14XEBq_c/VWjNs9-WUbI/AAAAAAAAUps/W25t_SLXzEA/s800-Ic42/Pottsorama.png)">
+      <div class="panel-main">
+    
+        <div class="panel-main__inner panel-inverted">
+        <div class="panel-main__content">
+    
+            <a href="https://cribstone.github.io/humblehacker" title="link to homepage for Andrew Jawitz"><img src="https://lh3.googleusercontent.com/-53C8QrOJWQk/VVJEShHyr_I/AAAAAAAAUeE/nE-P70e1Qx4/s512-Ic42/Andrew%252540CFA.jpg" width="80" alt="Andrew Jawitz logo" class="panel-cover__logo logo" /></a>
+            <h1 class="panel-cover__title panel-title"><a href="https://cribstone.github.io/humblehacker" title="link to homepage for Andrew Jawitz">Andrew Jawitz</a></h1>
+            <hr class="panel-cover__divider" />
+            <p class="panel-cover__description">Welcome to my Personal Landing Page!  Here you can find information about my professional background, my latest blog posts and links to other projects and writings from around the web.</p>
+            <hr class="panel-cover__divider panel-cover__divider--secondary" />
+    
+            <div class="navigation-wrapper">
+    
+              <nav class="cover-navigation cover-navigation--primary">
+                <ul class="navigation">
+                  <li class="navigation__item"><a href="https://cribstone.github.io/humblehacker/#blog" title="link to Andrew Jawitz blog" class="blog-button">Blog</a></li>
+                </ul>
+              </nav>
+    
+              
+              
+              <nav class="cover-navigation navigation--social">
+                <ul class="navigation">
+              
+                  <!-- Twitter -->
+                  <li class="navigation__item">
+                    <a href="ajawitz@facebook.com" title="Facebook account">
+                      <i class='icon icon-social-facebook'></i>
+                      <span class="label">Facebook</span>
+                    </a>
+                  </li>
+              
+                  <!-- Twitter -->
+                  <li class="navigation__item">
+                    <a href="@ajawitz" title="Twitter account">
+                      <i class='icon icon-social-twitter'></i>
+                      <span class="label">Twitter</span>
+                    </a>
+                  </li>
+              
+                  <!-- Google Plus -->
+                  <li class="navigation__item">
+                    <a href="https://plus.google.com/u/0/+AndrewJawitz/about" title="Google+ account">
+                      <i class='icon icon-social-google-plus'></i>
+                      <span class="label">Google-plus</span>
+                    </a>
+                  </li>
+              
+                  <!-- Github -->
+                  <li class="navigation__item">
+                    <a href="https://github.com/Cribstone" title="Github account">
+                      <i class='icon icon-social-github'></i>
+                      <span class="label">Github</span>
+                    </a>
+                  </li>
+                  </li>
+              
+              
+              
+              
+                  <!-- LinkedIn -->
+                  <li class="navigation__item">
+                    <a href="https://www.linkedin.com/in/ajawitz" title="LinkedIn account">
+                      <i class='icon icon-social-linkedin'></i>
+                      <span class="label">LinkedIn</span>
+                    </a>
+                  </li>
+              
+                  <!-- Email -->
+                  <li class="navigation__item">
+                    <a href="mailto:andrewjawitz@gmail.com" title="Email andrewjawitz@gmail.com">
+                      <i class='icon icon-mail'></i>
+                      <span class="label">Email</span>
+                    </a>
+                  </li>
+              
+                </ul>
+              </nav>
+              
+    
+            </div>
+    
+          </div>
+    
+        </div>
+    
+        <div class="panel-cover--overlay"></div>
+      </div>
+    </header>
+
+    <div class="content-wrapper">
+        <div class="content-wrapper__inner">
+            
+
+  <article class="post-container post-container--single">
+
+    <header class="post-header">
+      <div class="post-meta">
+        <time datetime="11 Aug 2015" class="post-meta__date date">11 Aug 2015</time> &#8226; <span class="post-meta__tags tags"></span>
+        <span class="post-meta__author author"><img src="https://avatars.githubusercontent.com/u/1483570?v=3" alt="profile image for Andrew Jawitz" class="avatar post-meta__avatar" /> by Andrew Jawitz</span>
+      </div>
+      <h1 class="post-title">DIY Drone Basics</h1>
+    </header>
+
+    <section class="post">
+      <div id="preamble">
+<div class="sectionbody">
+<div class="imageblock">
+<div class="content">
+<img src="https://lh3.googleusercontent.com/-6k6u9-Y-C78/Vcoy0BxUT2I/AAAAAAAAWD4/SiLY0lNjvR0/s576-Ic42/BlueDroneGraphic.png" alt="BlueDroneGraphic.png">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_fundamentals">Fundamentals</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>As the development of UAVs for consumer use is still in its infancy, and most are still considered expensive toys for the wealthy, it is becoming easier and easier to build highly sophisticated vehicles at a fraction of the cost, with capabilities far surpassing current commercial offerings. Thanks to online communities like www.MultiWii.org and www.diydrones.com, newcomers can find detailed documentation outlining every step of designing, building and flying your own unmanned aircraft using only generic, off-the-shelf electronics and homemade materials. Such documentation is often oriented towards other experts however, so those who are just getting started might find the technical language difficult to understand. Thus before I document how I went about building my own low-cost/DIY drone,it might be necessary to go over some of the basic terminology and fundamental concepts behind small autonomous aircraft at present.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_anatomy_of_a_drone">Anatomy of a Drone</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>While there are always exceptions, most small UAVs on the market, whether they be high-end commercial or completely scratch-built DIY versions, will include the following components. Note that some electronic components like the Transmiiter, Receiver, GPS and various sensors included in the Flight Control Board will remain the same whether a fixed wing aircraft or Multirotor.  However, hardware components like the ESCs and Brushless Motors will vary according to the type of vehicle.  Thus a quadrotor will require four ESCs and four Brushless Motors, while a fixed-wing will normally only require one each.  Fixed-wing aircraft normally require servo motors to control the ailerons and elevators though they are not included in this overview.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="https://lh3.googleusercontent.com/-E5ydX3qd60A/Vco0_MHAYoI/AAAAAAAAWE8/JLCx_rh10Vk/s100-Ic42/radiocontrol.png" alt="radiocontrol.png"></span></p>
+</div>
+<div class="sect2">
+<h3 id="_rc_transmitter">RC Transmitter</h3>
+<div class="paragraph">
+<p>The RC Transmitter actually consists of two different tools in one package. Confusingly, it refers the handheld control station including the manual joysticks for throttle, altitude and direction as well as multiple switches that can be programmed to serve a wide variety of different modes and functions. The actual transmitter, which relays these commands wirelessly to the aircraft is normally hidden inside the electronics. Even more confusingly, transmitters are often tuned to a fixed proprietary transmission protocol such as DSMx, FlySky, Futaba etc&#8230;&#8203;for which a compatible receiver must also be connected to the aircraft.  Therefore, many commercial controllers will only work with a certain type of receiver. As a result some specialty hobby distributors will sell the controller and the transmitters seperately.  Users can then use one controller with several different Transmitter "modules" as necessary.</p>
+</div>
+<div class="paragraph">
+<p>Various creative open source/DIY solutions to problems of compatibility have been developed by the hobbyist user-community and will be the subject of another post.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="https://lh3.googleusercontent.com/-ZJ2DXyo-M9Q/Vco2IL4safI/AAAAAAAAWFo/mlvAe31AXpo/s80-Ic42/Wireless.png" alt="Wireless.png"></span></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_rf_receiver">RF Receiver</h3>
+<div class="paragraph">
+<p>The Wireless Receiver is connected to the flight controller and relays commands from the manual joystick controls and various switches. As previously mentioned, the receiver must be compatible with the transmitter. In some advanced configurations, real-time telemetry can be sent back to the Control Box using Bluetooth or other wireless protocols.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="https://lh3.googleusercontent.com/-3i-LRLpxcpo/VcthefMmeaI/AAAAAAAAWJ0/bsqF-wwhdeA/s55-Ic42/path4.png" alt="path4.png"></span></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_gps_receiver">GPS Receiver</h3>
+<div class="paragraph">
+<p>A GPS receiver is essential for auto-navigation capabilities.  They are normally added as a seperate module.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="https://lh3.googleusercontent.com/-vmQX54oVpy8/Vco2C_M1o2I/AAAAAAAAWFY/HZxksw9rx88/s100-Ic42/cpu.png" alt="cpu.png"></span></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_flight_control_board">Flight Control Board</h3>
+<div class="paragraph">
+<p>The Flight Controller is the vehicles brain. The actual control unit is normally a Microcontroller chip (or MCU) such as the 8Bit Arduino (in earlier models) or the 32Bit STM32 (in most recent versions).  To control the aircraft, the MCU must process data from several different sensors.  Commercially available flight boards such as the Naze32, Multiwii Pro, OpenPilot, APM will come with these sensors already preconfigured while DIY designers will need to connect the sensors manually.  In order to support true autonomous flight, the following sensors, in addition to the GPS, will be required-</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="https://lh3.googleusercontent.com/-IgNf00sCZe0/Vco2B0xTfyI/AAAAAAAAWFQ/bfLg6UQWLM8/s80-Ic42/Compass.png" alt="Compass.png"></span></p>
+</div>
+<div class="sect3">
+<h4 id="_the_magnetometer">The Magnetometer</h4>
+<div class="paragraph">
+<p>The magnetometer is a digital compass and navigates the drone to preplotted waypoints.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="https://lh3.googleusercontent.com/-DFaWkr1
+t-c0/Vco-ycOF4YI/AAAAAAAAWIc/Ihp6v5ftxMo/s96-Ic42/mini10DOF.png" alt="mini10DOF.png"></span></p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_the_accelerometer">The Accelerometer</h4>
+<div class="paragraph">
+<p>The Accelerometer controls up/down and forward backward motion</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="https://lh3.googleusercontent.com/-LuI-imYFDEs/Vco8x_0u5iI/AAAAAAAAWH4/VpXKkiUhXNE/s113-Ic42/miniGyro.png" alt="miniGyro.png"></span></p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_the_gyroscope">The Gyroscope</h4>
+<div class="paragraph">
+<p>The gyroscope keeps the drone level with the horizon.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="https://lh3.googleusercontent.com/-jJUWorf17KY/Vco9hGTr1OI/AAAAAAAAWIE/wZ8DysO1rIg/s80-Ic42/esc.png" alt="esc.png"></span></p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_electronic_speed_controls_esc">Electronic Speed Controls (ESC)</h3>
+<div class="paragraph">
+<p>Electronic Speed Controls (ESC) provide power to the Flight Controller and the Brushless Motors by connecting directly to a battery power source. It also performs another important role by translating digital commands from the Flight Controller into raw  electric current to power the Brushless Motors.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="https://lh3.googleusercontent.com/-fp0OIM-DgKc/Vco-Nn6SE6I/AAAAAAAAWIM/V_mfbb8ZcOQ/s80-Ic42/smallBrushlessMotor.png" alt="smallBrushlessMotor.png"></span></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_brushless_dc_motors">Brushless DC Motors</h3>
+<div class="paragraph">
+<p>Modern hobby drones almost exclusively use Brushless Electric Motors due to their superior efficiency, durability, torque and speed.  The major disadvantage compared to brushed motors are the requirement for additional speed controls.  However, with ESC components getting smarter and cheaper every day, this disadvantage the Brushless Motors.  While only one ESC is needed to power the Flight Controller.</p>
+</div>
+<div class="paragraph">
+<p>.</p>
+</div>
+</div>
+</div>
+</div>
+    </section>
+
+  </article>
+
+
+
+
+            <footer class="footer">
+                <span class="footer__copyright">&copy; 2015. All rights reserved.</span>
+                <span class="footer__copyright"><a href="http://uno.daleanthony.com" title="link to page for Uno Ghost theme">Uno theme</a> by <a href="http://daleanthony.com" title="link to website for Dale-Anthony">Dale-Anthony</a></span>
+                <span class="footer__copyright">Proudly published with <a href="http://hubpress.io" title="link to Hubpress website">Hubpress</a></span>
+            </footer>
+        </div>
+    </div>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js?v="></script> 
+      <script type="text/javascript">
+        jQuery( document ).ready(function() {
+          // change date with ago
+          jQuery('ago.ago').each(function(){
+            var element = jQuery(this).parent();
+            element.html( moment(element.text()).fromNow());
+          });
+        });
+
+        hljs.initHighlightingOnLoad();      
+      </script>
+
+    <script type="text/javascript" src="//cribstone.github.io/humblehacker/themes/uno/assets/js/main.js?v=1.0.0"></script>
+    
+
+</body>
+</html>

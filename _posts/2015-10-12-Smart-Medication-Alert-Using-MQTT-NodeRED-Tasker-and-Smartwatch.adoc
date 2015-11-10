@@ -3,7 +3,7 @@ image::http://lh3.googleusercontent.com/-EUMKOI_pq4Y/VMKl6ijVYoI/AAAAAAAAR-g/cdz
 
 ## Use-Case:
   
-  The user has been prescribed two different medications of which one is to be taken at very specific intervals while the other is to be taken "as needed".
+The user has been prescribed two different medications of which one is to be taken at very specific intervals while the other is to be taken "as needed".
 ###Prescription A-
    is to be taken twice a day with the first an hour before the user actually wakes up and the second precisely at noon.
 ###Prescription B- 
@@ -11,21 +11,21 @@ image::http://lh3.googleusercontent.com/-EUMKOI_pq4Y/VMKl6ijVYoI/AAAAAAAAR-g/cdz
    
 ## The Problem:
 
-###Prescription A- 
-   The awkward timing for the first dose requires significant preplanning to ensure the pills are within easy reach and can be swallowed with water.  Planning is often overlooked and significant confusion results in locating the correct medication, finding a glass of water and swallowing it.  Leaving an open glass of water by bedside can spill and ruin electronics or medications while leaving medication outside a container risks accidental ingestion by small children or pets.  Often times the user snoozes alarm and misses dose.
+### Prescription A- 
+The awkward timing for the first dose requires significant preplanning to ensure the pills are within easy reach and can be swallowed with water.  Planning is often overlooked and significant confusion results in locating the correct medication, finding a glass of water and swallowing it.  Leaving an open glass of water by bedside can spill and ruin electronics or medications while leaving medication outside a container risks accidental ingestion by small children or pets.  Often times the user snoozes alarm and misses dose.
    The 12:00PM dose is often missed if user is busy driving, working etc... He sometimes forgets if dosage was taken either leading to missed dose or accidentally taking more than was prescribed.
    
-###Prescription B- 
-   The awkward size of the dosage itself requires the pill to be cut into sections.  Irregular intake throughout the day often leads to unintentional overconsumption, leading to shortages before refill date.  The unintentional result can be an increased dependency.
+### Prescription B- 
+The awkward size of the dosage itself requires the pill to be cut into sections.  Irregular intake throughout the day often leads to unintentional overconsumption, leading to shortages before refill date.  The unintentional result can be an increased dependency.
    
-##Prescription A- Solution
+## Prescription A- Solution
    
-  Leverages methods developed for home automation, wearable technology, quantified life, 3D printing and the "Internet of Things".
+Leverages methods developed for home automation, wearable technology, quantified life, 3D printing and the "Internet of Things".
   
-###Pill Dispensing Lid
+### Pill Dispensing Lid
   
-  A special pill dispensing lid is designed to hold the pill in place before swallowing it with water.  The lid is 3D printed and can fit on a standard Mason jar.
-{<2>}![](/content/images/2015/Jan/Cap-1.png)
+A special pill dispensing lid is designed to hold the pill in place before swallowing it with water.  The lid is 3D printed and can fit on a standard Mason jar.image::http://lh3.googleusercontent.com/-0tifR_IGN6c/VL0ouAvlnDI/AAAAAAAAR8Y/Hxj7-sMs-K4/s512-Ic42/IMG_20150118_201344.jpg[]
+
 
    A cup holder is also specially designed to fit a ring of programmable, multicolor LEDs and printed before attaching the LEDs to an Arduino YUN.
 {<3>}![](/content/images/2015/Jan/yun_with_neopixel-1.jpg)

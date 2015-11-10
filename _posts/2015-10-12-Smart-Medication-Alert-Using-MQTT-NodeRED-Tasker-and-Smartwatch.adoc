@@ -1,6 +1,6 @@
 = Smart Medication Alert Using MQTT, NodeRED, Tasker and Smartwatch
 
-![](/content/images/2015/Jan/MedLight_bb-1.png)
+![](https://lh3.googleusercontent.com/-EUMKOI_pq4Y/VMKl6ijVYoI/AAAAAAAAR-g/cdzpjddZx38/s512-Ic42/MedLight_bb.png)
 
 ## Use-Case:
   

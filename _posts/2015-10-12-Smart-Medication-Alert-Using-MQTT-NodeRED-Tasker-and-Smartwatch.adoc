@@ -1,11 +1,13 @@
 = Smart Medication Alert Using MQTT, NodeRED, Tasker and Smartwatch
+
 image::http://lh3.googleusercontent.com/-EUMKOI_pq4Y/VMKl6ijVYoI/AAAAAAAAR-g/cdzpjddZx38/s512-Ic42/MedLight_bb.png[]
 
 ## Use-Case:
   
 The user has been prescribed two different medications of which one is to be taken at very specific intervals while the other is to be taken "as needed".
-###Prescription A-
-   is to be taken twice a day with the first an hour before the user actually wakes up and the second precisely at noon.
+
+### Prescription A-
+is to be taken twice a day with the first an hour before the user actually wakes up and the second precisely at noon.
 ###Prescription B- 
    is to prescribed with a daily dosage of 1 3/4 of a pill to be taken in small increments throughout the day "as needed"
    
@@ -24,29 +26,30 @@ Leverages methods developed for home automation, wearable technology, quantified
   
 ### Pill Dispensing Lid
   
-A special pill dispensing lid is designed to hold the pill in place before swallowing it with water.  The lid is 3D printed and can fit on a standard Mason jar.image::http://lh3.googleusercontent.com/-0tifR_IGN6c/VL0ouAvlnDI/AAAAAAAAR8Y/Hxj7-sMs-K4/s512-Ic42/IMG_20150118_201344.jpg[]
+A special pill dispensing lid is designed to hold the pill in place before swallowing it with water.  The lid is 3D printed and can fit on a standard Mason jar.
 
+image::http://lh3.googleusercontent.com/-0tifR_IGN6c/VL0ouAvlnDI/AAAAAAAAR8Y/Hxj7-sMs-K4/s512-Ic42/IMG_20150118_201344.jpg[]
 
-   A cup holder is also specially designed to fit a ring of programmable, multicolor LEDs and printed before attaching the LEDs to an Arduino YUN.
-{<3>}![](/content/images/2015/Jan/yun_with_neopixel-1.jpg)
-{<4>}![](/content/images/2015/Jan/Base-1.jpg)
-
-   When placed on its base, the water glass lights up with the color of the LED ring and can be dynamically controlled  by the Arduino YUN.
+A cup holder is also specially designed to fit a ring of programmable, multicolor LEDs and printed before attaching the LEDs to an Arduino YUN.
    
-{<5>}![](/content/images/2015/Jan/Daytime.jpg)
+image::http://lh3.googleusercontent.com/-h73-of16PyU/VL0ouBtGUSI/AAAAAAAAR8Y/ukm863ZCrKw/s512-Ic42/IMG_20150118_201410.jpg[]
+   
+
+When placed on its base, the water glass lights up with the color of the LED ring and can be dynamically controlled  by the Arduino YUN.
+   
+image::https://lh3.googleusercontent.com/-l61W6eh6LWE/VL0ouA3LXZI/AAAAAAAAR8Y/CHVI4hbc9u8/s512-Ic42/IMG_20150118_201421.jpg[]
 
 ### Smart Alarm
   
-  A Pebble smartwatch uses an accelermoter to track sleep cycles by sensing patterns in body movements and calculates optimal wake up time using a companion Android app called "Sleep as Android". With an open API, the Android app then triggers a sophisticated wake up routine designed to ensure the early dosage is taken before the actual wake up alarm.
+A Pebble smartwatch uses an accelermoter to track sleep cycles by sensing patterns in body movements and calculates optimal wake up time using a companion Android app called "Sleep as Android". With an open API, the Android app then triggers a sophisticated wake up routine designed to ensure the early dosage is taken before the actual wake up alarm.
   A special app called "Tasker" allows the normal alarm routine to trigger a message via MQTT to a webserver interface called "NodeRED" running on a Raspberry Pi.  A custom routine signals the Arduino YUN to blink the LED base in Red when the first alarm sequence has been triggered.  As a result the user is woken up by the watch vibration and is immediately drawn to the brightly colored cup with medication dispensing lid.  The pill can now be swallowed in a single movement.  An NFC tag on the bottom of the cup can now be scanned to turn off the alarm sequence and simultaneously log that the dosage has been taken.
  
 
-{<6>}![](/content/images/2015/Jan/MedLight_bb.png)
    
   The next routine is triggered by the same NFC tag and triggers a gradual "sunrise alarm" through a system of "smart light bulbs" connected to a wifi base station by UDP commands. When the final wake up alarm triggers an hour later the master lights will have changed from the calming blue colors in night mode to a bright orange/yellow wake up mode. 
-  
+ 
+image::http://lh3.googleusercontent.com/-nojBObNJQx8/VL0ouOVepiI/AAAAAAAAR8Y/v4fCgw1HgJU/s640-Ic42/IMG_20150118_201238.jpg[]
 
-{<7>}![](/content/images/2015/Jan/BlueNightLight-1.jpg)
 
 
 

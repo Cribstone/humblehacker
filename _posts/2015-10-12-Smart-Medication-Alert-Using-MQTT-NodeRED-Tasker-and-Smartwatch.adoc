@@ -46,7 +46,7 @@ A Pebble smartwatch uses an accelermoter to track sleep cycles by sensing patter
  
 
    
-  The next routine is triggered by the same NFC tag and triggers a gradual "sunrise alarm" through a system of "smart light bulbs" connected to a wifi base station by UDP commands. When the final wake up alarm triggers an hour later the master lights will have changed from the calming blue colors in night mode to a bright orange/yellow wake up mode. 
+The next routine is triggered by the same NFC tag and triggers a gradual "sunrise alarm" through a system of "smart light bulbs" connected to a wifi base station by UDP commands. When the final wake up alarm triggers an hour later the master lights will have changed from the calming blue colors in night mode to a bright orange/yellow wake up mode. 
  
 image::http://lh3.googleusercontent.com/-nojBObNJQx8/VL0ouOVepiI/AAAAAAAAR8Y/v4fCgw1HgJU/s640-Ic42/IMG_20150118_201238.jpg[]
 

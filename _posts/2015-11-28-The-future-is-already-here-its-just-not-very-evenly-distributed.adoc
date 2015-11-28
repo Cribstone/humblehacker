@@ -4,13 +4,12 @@
 As the above quote has become a rallying cry for Civic Hackers and DIY Makers alike, I believe it is especially relevant to the present state of "home automation".  For even as we witness such milestones as the introduction of the $5 PC, it seems that the one sector where Moore's Law doesn't have any jurisdiction is in the "connected home" marketplace wherein someone decided a "smart" lightbulb is worth almost 100 times more than its dumb cousins.  Of course, perhaps its asking too much to expect the likes of Phillips and General Electric to embrace a long tail production strategy, when they've been working the same angle for over 60 years...   
 
 Drag and drop images or click to select some from your file system
-Xlg electric home of future 0
 
+Insert PopMech Home of the Future Pic
 Type in a caption for this image
 The mythology of a gadget-filled "smart home" is such a defining characteristic of consumer capitalism that it even took on ideological undertones during the infamous "kitchen debates" between Richard Nixon and Nikita Khrushchev.
 
-Type in a caption
-
+Embed Kitchen Debates vid from youtube here
 The inevitable outcome of the corporate approach to the IOT is one where the potential benefits of connected living are reduced to those of toys for the wealthy.
 
 

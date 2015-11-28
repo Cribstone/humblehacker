@@ -1,0 +1,33 @@
+= The future is already here — it's just not very evenly distributed 
+
+
+As the above quote has become a rallying cry for Civic Hackers and DIY Makers alike, I believe it is especially relevant to the present state of "home automation".  For even as we witness such milestones as the introduction of the $5 PC, it seems that the one sector where Moore's Law doesn't have any jurisdiction is in the "connected home" marketplace wherein someone decided a "smart" lightbulb is worth almost 100 times more than its dumb cousins.  Of course, perhaps its asking too much to expect the likes of Phillips and General Electric to embrace a long tail production strategy, when they've been working the same angle for over 60 years...   
+
+Drag and drop images or click to select some from your file system
+Xlg electric home of future 0
+
+Type in a caption for this image
+The mythology of a gadget-filled "smart home" is such a defining characteristic of consumer capitalism that it even took on ideological undertones during the infamous "kitchen debates" between Richard Nixon and Nikita Khrushchev.
+
+Type in a caption
+
+The inevitable outcome of the corporate approach to the IOT is one where the potential benefits of connected living are reduced to those of toys for the wealthy.
+
+
+
+Luckily, the rebranded "connected home" is still under the jurisdiction of Moore's Law, and the combination of cheap sensors and increasingly sophisticated open source software alternatives are finally making it possible to solve real day to day problems with data and automation.
+
+However, the automation marketplace has been so dynamic in recent years that even focusing solely on Open Source Hardware will easily overwhelm a newcomer.  Accordingly, the following tutorial will only be evaluating a use-case for the cheapest of the cheapest hardware on the market.
+
+
+
+ Even for those of us accustomed to living in the cold weather, the past decade has been marked by a combination of extreme cold and unusually high heating prices.  It is unsurprising then that alternative fuels like wood pellets and energy saving devices like the Nest Thermostat have been in high demand.  
+In fact, my own interest in the IOT and OSHW was inspired in part by a desire to maximize the efficiency of a small pellet burner I installed in my basement a couple years ago.  The following workflow is the latest iteration of an experiment to track and map temperature changes throughout the house.  Such data can then be used to heat the house for longer with less energy.
+
+Isnt this what a Thermostat is for?
+Whether they are the standard old "dumb" models, or the programmable "learning" models like the NEST,  a thermostat can only provide a general temperature reading based on its immediate vicinity.  In order to accurately map how much heat travels from the basement to a third floor bedroom for example, you will need multiple sensors all over the house.  Furthermore, the average smart thermostat price of $250 may be more justified than other "Connected Home" gadgets like the Phillips Hue, its still more than my income allows...  At some point I hope to get a hold of one however, so the workflow has been designed to work with or without a programmable thermostat.  
+
+When quantity has a quality all of its own.
+
+
+There are few other modern examples wherein quantity and quality are one and the same as with the analysis of data. More data=better data.
